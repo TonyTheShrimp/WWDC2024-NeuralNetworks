@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>902C3419-D148-4C55-8CD4-AFEFE52F2234</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>902C3419-D148-4C55-8CD4-AFEFE52F2234.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NeuralNetworks.swiftpm</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NeuralNetworks</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NeuralNetworks</string>
+			<key>timeStartedRecording</key>
+			<real>729091148.70057499</real>
+			<key>timeStoppedRecording</key>
+			<real>729091492.24827397</real>
+			<key>title</key>
+			<string>Run NeuralNetworks</string>
+			<key>uniqueIdentifier</key>
+			<string>902C3419-D148-4C55-8CD4-AFEFE52F2234</string>
+		</dict>
+		<key>FB227975-0634-4227-8E37-0A21E6FD57A9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FB227975-0634-4227-8E37-0A21E6FD57A9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NeuralNetworks.swiftpm</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NeuralNetworks</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run NeuralNetworks</string>
+			<key>timeStartedRecording</key>
+			<real>729098158.56151402</real>
+			<key>timeStoppedRecording</key>
+			<real>729098265.16334605</real>
+			<key>title</key>
+			<string>Run NeuralNetworks</string>
+			<key>uniqueIdentifier</key>
+			<string>FB227975-0634-4227-8E37-0A21E6FD57A9</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

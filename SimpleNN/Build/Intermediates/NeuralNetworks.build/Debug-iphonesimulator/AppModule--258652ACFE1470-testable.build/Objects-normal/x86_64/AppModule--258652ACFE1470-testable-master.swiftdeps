@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "df38244fb4712bf8ad8d7860742dd5a9fcfa593d37e50a8395616bcf99d7354e"
+build_start_time: [1707405348, 434633016]
+build_end_time: [1707405357, 929386138]
+inputs:
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/SimpleNN/NeuralNetworks.swiftpm/ContentView.swift": [1707404561, 942879199]
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/SimpleNN/NeuralNetworks.swiftpm/MyApp.swift": [1707404697, 70125102]
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/SimpleNN/NeuralNetworks.swiftpm/NeuralNetworks.swift": [1707404552, 657393932]
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/SimpleNN/NeuralNetworks.swiftpm/numSwift.swift": [1707404550, 933928728]

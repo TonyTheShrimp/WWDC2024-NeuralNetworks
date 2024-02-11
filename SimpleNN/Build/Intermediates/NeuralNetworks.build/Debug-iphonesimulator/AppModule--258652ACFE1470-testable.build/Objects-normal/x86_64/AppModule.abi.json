@@ -1,0 +1,2867 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Accelerate",
+      "printedName": "Accelerate",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "result",
+          "printedName": "result",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule11ContentViewV6resultSSvp",
+          "mangledName": "$s9AppModule11ContentViewV6resultSSvp",
+          "moduleName": "AppModule",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule11ContentViewV6resultSSvg",
+              "mangledName": "$s9AppModule11ContentViewV6resultSSvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule11ContentViewV6resultSSvs",
+              "mangledName": "$s9AppModule11ContentViewV6resultSSvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule11ContentViewV6resultSSvM",
+              "mangledName": "$s9AppModule11ContentViewV6resultSSvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$result",
+          "printedName": "$result",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule11ContentViewV7$result7SwiftUI7BindingVySSGvp",
+          "mangledName": "$s9AppModule11ContentViewV7$result7SwiftUI7BindingVySSGvp",
+          "moduleName": "AppModule",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule11ContentViewV7$result7SwiftUI7BindingVySSGvg",
+              "mangledName": "$s9AppModule11ContentViewV7$result7SwiftUI7BindingVySSGvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_result",
+          "printedName": "_result",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule11ContentViewV7_result33_3FE57DDB23800CF4E00FCF8FACDD3FCFLL7SwiftUI5StateVySSGvp",
+          "mangledName": "$s9AppModule11ContentViewV7_result33_3FE57DDB23800CF4E00FCF8FACDD3FCFLL7SwiftUI5StateVySSGvp",
+          "moduleName": "AppModule",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "neuron",
+          "printedName": "neuron",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NeuralNetwork",
+              "printedName": "AppModule.NeuralNetwork",
+              "usr": "s:9AppModule13NeuralNetworkC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule11ContentViewV6neuronAA13NeuralNetworkCvp",
+          "mangledName": "$s9AppModule11ContentViewV6neuronAA13NeuralNetworkCvp",
+          "moduleName": "AppModule",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NeuralNetwork",
+                  "printedName": "AppModule.NeuralNetwork",
+                  "usr": "s:9AppModule13NeuralNetworkC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule11ContentViewV6neuronAA13NeuralNetworkCvg",
+              "mangledName": "$s9AppModule11ContentViewV6neuronAA13NeuralNetworkCvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "NeuralNetwork",
+                  "printedName": "AppModule.NeuralNetwork",
+                  "usr": "s:9AppModule13NeuralNetworkC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule11ContentViewV6neuronAA13NeuralNetworkCvs",
+              "mangledName": "$s9AppModule11ContentViewV6neuronAA13NeuralNetworkCvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule11ContentViewV6neuronAA13NeuralNetworkCvM",
+              "mangledName": "$s9AppModule11ContentViewV6neuronAA13NeuralNetworkCvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "VStack",
+              "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)>>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TupleView",
+                  "printedName": "SwiftUI.TupleView<(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "OpaqueTypeArchetype",
+                          "printedName": "some SwiftUI.View",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "View",
+                              "printedName": "SwiftUI.View",
+                              "usr": "s:7SwiftUI4ViewP"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Text",
+                          "printedName": "SwiftUI.Text",
+                          "usr": "s:7SwiftUI4TextV"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Divider",
+                          "printedName": "SwiftUI.Divider",
+                          "usr": "s:7SwiftUI7DividerV"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Button",
+                          "printedName": "SwiftUI.Button<SwiftUI.Text>",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Text",
+                              "printedName": "SwiftUI.Text",
+                              "usr": "s:7SwiftUI4TextV"
+                            }
+                          ],
+                          "usr": "s:7SwiftUI6ButtonV"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Text",
+                          "printedName": "SwiftUI.Text",
+                          "usr": "s:7SwiftUI4TextV"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:7SwiftUI9TupleViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI6VStackV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule11ContentViewV4bodyQrvp",
+          "mangledName": "$s9AppModule11ContentViewV4bodyQrvp",
+          "moduleName": "AppModule",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "VStack",
+                  "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)>>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TupleView",
+                      "printedName": "SwiftUI.TupleView<(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "OpaqueTypeArchetype",
+                              "printedName": "some SwiftUI.View",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "View",
+                                  "printedName": "SwiftUI.View",
+                                  "usr": "s:7SwiftUI4ViewP"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Text",
+                              "printedName": "SwiftUI.Text",
+                              "usr": "s:7SwiftUI4TextV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Divider",
+                              "printedName": "SwiftUI.Divider",
+                              "usr": "s:7SwiftUI7DividerV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Button",
+                              "printedName": "SwiftUI.Button<SwiftUI.Text>",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Text",
+                                  "printedName": "SwiftUI.Text",
+                                  "usr": "s:7SwiftUI4TextV"
+                                }
+                              ],
+                              "usr": "s:7SwiftUI6ButtonV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Text",
+                              "printedName": "SwiftUI.Text",
+                              "usr": "s:7SwiftUI4TextV"
+                            }
+                          ]
+                        }
+                      ],
+                      "usr": "s:7SwiftUI9TupleViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI6VStackV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule11ContentViewV4bodyQrvg",
+              "mangledName": "$s9AppModule11ContentViewV4bodyQrvg",
+              "moduleName": "AppModule",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "AppModule.ContentView",
+              "usr": "s:9AppModule11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9AppModule11ContentViewVACycfc",
+          "mangledName": "$s9AppModule11ContentViewVACycfc",
+          "moduleName": "AppModule",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(result:neuron:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "AppModule.ContentView",
+              "usr": "s:9AppModule11ContentViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NeuralNetwork",
+              "printedName": "AppModule.NeuralNetwork",
+              "hasDefaultArg": true,
+              "usr": "s:9AppModule13NeuralNetworkC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9AppModule11ContentViewV6result6neuronACSS_AA13NeuralNetworkCtcfc",
+          "mangledName": "$s9AppModule11ContentViewV6result6neuronACSS_AA13NeuralNetworkCtcfc",
+          "moduleName": "AppModule",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9AppModule11ContentViewV",
+      "mangledName": "$s9AppModule11ContentViewV",
+      "moduleName": "AppModule",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "VStack",
+                  "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)>>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TupleView",
+                      "printedName": "SwiftUI.TupleView<(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "OpaqueTypeArchetype",
+                              "printedName": "some SwiftUI.View",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "View",
+                                  "printedName": "SwiftUI.View",
+                                  "usr": "s:7SwiftUI4ViewP"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Text",
+                              "printedName": "SwiftUI.Text",
+                              "usr": "s:7SwiftUI4TextV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Divider",
+                              "printedName": "SwiftUI.Divider",
+                              "usr": "s:7SwiftUI7DividerV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Button",
+                              "printedName": "SwiftUI.Button<SwiftUI.Text>",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Text",
+                                  "printedName": "SwiftUI.Text",
+                                  "usr": "s:7SwiftUI4TextV"
+                                }
+                              ],
+                              "usr": "s:7SwiftUI6ButtonV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Text",
+                              "printedName": "SwiftUI.Text",
+                              "usr": "s:7SwiftUI4TextV"
+                            }
+                          ]
+                        }
+                      ],
+                      "usr": "s:7SwiftUI9TupleViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI6VStackV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Accelerate",
+      "printedName": "Accelerate",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MyApp",
+      "printedName": "MyApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WindowGroup",
+              "printedName": "SwiftUI.WindowGroup<AppModule.ContentView>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ContentView",
+                  "printedName": "AppModule.ContentView",
+                  "usr": "s:9AppModule11ContentViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI11WindowGroupV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule02MyA0V4bodyQrvp",
+          "mangledName": "$s9AppModule02MyA0V4bodyQrvp",
+          "moduleName": "AppModule",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindowGroup",
+                  "printedName": "SwiftUI.WindowGroup<AppModule.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "AppModule.ContentView",
+                      "usr": "s:9AppModule11ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11WindowGroupV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule02MyA0V4bodyQrvg",
+              "mangledName": "$s9AppModule02MyA0V4bodyQrvg",
+              "moduleName": "AppModule",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule02MyA0V5$mainyyFZ",
+          "mangledName": "$s9AppModule02MyA0V5$mainyyFZ",
+          "moduleName": "AppModule",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MyApp",
+              "printedName": "AppModule.MyApp",
+              "usr": "s:9AppModule02MyA0V"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9AppModule02MyA0VACycfc",
+          "mangledName": "$s9AppModule02MyA0VACycfc",
+          "moduleName": "AppModule",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9AppModule02MyA0V",
+      "mangledName": "$s9AppModule02MyA0V",
+      "moduleName": "AppModule",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindowGroup",
+                  "printedName": "SwiftUI.WindowGroup<AppModule.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "AppModule.ContentView",
+                      "usr": "s:9AppModule11ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11WindowGroupV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Accelerate",
+      "printedName": "Accelerate",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Neuron",
+      "printedName": "Neuron",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "weights",
+          "printedName": "weights",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule6NeuronC7weightsSaySdGvp",
+          "mangledName": "$s9AppModule6NeuronC7weightsSaySdGvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Double]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule6NeuronC7weightsSaySdGvg",
+              "mangledName": "$s9AppModule6NeuronC7weightsSaySdGvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Double]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule6NeuronC7weightsSaySdGvs",
+              "mangledName": "$s9AppModule6NeuronC7weightsSaySdGvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule6NeuronC7weightsSaySdGvM",
+              "mangledName": "$s9AppModule6NeuronC7weightsSaySdGvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "bias",
+          "printedName": "bias",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule6NeuronC4biasSdvp",
+          "mangledName": "$s9AppModule6NeuronC4biasSdvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule6NeuronC4biasSdvg",
+              "mangledName": "$s9AppModule6NeuronC4biasSdvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule6NeuronC4biasSdvs",
+              "mangledName": "$s9AppModule6NeuronC4biasSdvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule6NeuronC4biasSdvM",
+              "mangledName": "$s9AppModule6NeuronC4biasSdvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(weights:bias:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Neuron",
+              "printedName": "AppModule.Neuron",
+              "usr": "s:9AppModule6NeuronC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9AppModule6NeuronC7weights4biasACSaySdG_Sdtcfc",
+          "mangledName": "$s9AppModule6NeuronC7weights4biasACSaySdG_Sdtcfc",
+          "moduleName": "AppModule",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "sigmoid",
+          "printedName": "sigmoid(value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule6NeuronC7sigmoid5valueS2d_tF",
+          "mangledName": "$s9AppModule6NeuronC7sigmoid5valueS2d_tF",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "feedforward",
+          "printedName": "feedforward(inputs:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule6NeuronC11feedforward6inputsSdSaySdG_tF",
+          "mangledName": "$s9AppModule6NeuronC11feedforward6inputsSdSaySdG_tF",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "TestNeuron",
+          "printedName": "TestNeuron()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Neuron",
+              "printedName": "AppModule.Neuron",
+              "usr": "s:9AppModule6NeuronC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule6NeuronC04TestC0ACyFZ",
+          "mangledName": "$s9AppModule6NeuronC04TestC0ACyFZ",
+          "moduleName": "AppModule",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9AppModule6NeuronC",
+      "mangledName": "$s9AppModule6NeuronC",
+      "moduleName": "AppModule",
+      "isOpen": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NeuralNetwork",
+      "printedName": "NeuralNetwork",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "h1",
+          "printedName": "h1",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Neuron",
+              "printedName": "AppModule.Neuron",
+              "usr": "s:9AppModule6NeuronC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13NeuralNetworkC2h1AA6NeuronCvp",
+          "mangledName": "$s9AppModule13NeuralNetworkC2h1AA6NeuronCvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Neuron",
+                  "printedName": "AppModule.Neuron",
+                  "usr": "s:9AppModule6NeuronC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2h1AA6NeuronCvg",
+              "mangledName": "$s9AppModule13NeuralNetworkC2h1AA6NeuronCvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Neuron",
+                  "printedName": "AppModule.Neuron",
+                  "usr": "s:9AppModule6NeuronC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2h1AA6NeuronCvs",
+              "mangledName": "$s9AppModule13NeuralNetworkC2h1AA6NeuronCvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2h1AA6NeuronCvM",
+              "mangledName": "$s9AppModule13NeuralNetworkC2h1AA6NeuronCvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "h2",
+          "printedName": "h2",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Neuron",
+              "printedName": "AppModule.Neuron",
+              "usr": "s:9AppModule6NeuronC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13NeuralNetworkC2h2AA6NeuronCvp",
+          "mangledName": "$s9AppModule13NeuralNetworkC2h2AA6NeuronCvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Neuron",
+                  "printedName": "AppModule.Neuron",
+                  "usr": "s:9AppModule6NeuronC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2h2AA6NeuronCvg",
+              "mangledName": "$s9AppModule13NeuralNetworkC2h2AA6NeuronCvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Neuron",
+                  "printedName": "AppModule.Neuron",
+                  "usr": "s:9AppModule6NeuronC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2h2AA6NeuronCvs",
+              "mangledName": "$s9AppModule13NeuralNetworkC2h2AA6NeuronCvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2h2AA6NeuronCvM",
+              "mangledName": "$s9AppModule13NeuralNetworkC2h2AA6NeuronCvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "o1",
+          "printedName": "o1",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Neuron",
+              "printedName": "AppModule.Neuron",
+              "usr": "s:9AppModule6NeuronC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13NeuralNetworkC2o1AA6NeuronCvp",
+          "mangledName": "$s9AppModule13NeuralNetworkC2o1AA6NeuronCvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Neuron",
+                  "printedName": "AppModule.Neuron",
+                  "usr": "s:9AppModule6NeuronC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2o1AA6NeuronCvg",
+              "mangledName": "$s9AppModule13NeuralNetworkC2o1AA6NeuronCvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Neuron",
+                  "printedName": "AppModule.Neuron",
+                  "usr": "s:9AppModule6NeuronC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2o1AA6NeuronCvs",
+              "mangledName": "$s9AppModule13NeuralNetworkC2o1AA6NeuronCvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2o1AA6NeuronCvM",
+              "mangledName": "$s9AppModule13NeuralNetworkC2o1AA6NeuronCvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "sigmoid",
+          "printedName": "sigmoid(value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule13NeuralNetworkC7sigmoid5valueS2d_tF",
+          "mangledName": "$s9AppModule13NeuralNetworkC7sigmoid5valueS2d_tF",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "deriv_sigmoid",
+          "printedName": "deriv_sigmoid(value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule13NeuralNetworkC13deriv_sigmoid5valueS2d_tF",
+          "mangledName": "$s9AppModule13NeuralNetworkC13deriv_sigmoid5valueS2d_tF",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "mse_loss",
+          "printedName": "mse_loss(targets:values:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule13NeuralNetworkC8mse_loss7targets6valuesSdSaySdG_AGtF",
+          "mangledName": "$s9AppModule13NeuralNetworkC8mse_loss7targets6valuesSdSaySdG_AGtF",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "w1",
+          "printedName": "w1",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13NeuralNetworkC2w1Sdvp",
+          "mangledName": "$s9AppModule13NeuralNetworkC2w1Sdvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w1Sdvg",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w1Sdvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w1Sdvs",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w1Sdvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w1SdvM",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w1SdvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "w2",
+          "printedName": "w2",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13NeuralNetworkC2w2Sdvp",
+          "mangledName": "$s9AppModule13NeuralNetworkC2w2Sdvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w2Sdvg",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w2Sdvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w2Sdvs",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w2Sdvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w2SdvM",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w2SdvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "w3",
+          "printedName": "w3",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13NeuralNetworkC2w3Sdvp",
+          "mangledName": "$s9AppModule13NeuralNetworkC2w3Sdvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w3Sdvg",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w3Sdvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w3Sdvs",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w3Sdvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w3SdvM",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w3SdvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "w4",
+          "printedName": "w4",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13NeuralNetworkC2w4Sdvp",
+          "mangledName": "$s9AppModule13NeuralNetworkC2w4Sdvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w4Sdvg",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w4Sdvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w4Sdvs",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w4Sdvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w4SdvM",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w4SdvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "w5",
+          "printedName": "w5",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13NeuralNetworkC2w5Sdvp",
+          "mangledName": "$s9AppModule13NeuralNetworkC2w5Sdvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 7,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w5Sdvg",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w5Sdvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w5Sdvs",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w5Sdvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w5SdvM",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w5SdvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "w6",
+          "printedName": "w6",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13NeuralNetworkC2w6Sdvp",
+          "mangledName": "$s9AppModule13NeuralNetworkC2w6Sdvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 8,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w6Sdvg",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w6Sdvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w6Sdvs",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w6Sdvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2w6SdvM",
+              "mangledName": "$s9AppModule13NeuralNetworkC2w6SdvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "b1",
+          "printedName": "b1",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13NeuralNetworkC2b1Sdvp",
+          "mangledName": "$s9AppModule13NeuralNetworkC2b1Sdvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 9,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2b1Sdvg",
+              "mangledName": "$s9AppModule13NeuralNetworkC2b1Sdvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2b1Sdvs",
+              "mangledName": "$s9AppModule13NeuralNetworkC2b1Sdvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2b1SdvM",
+              "mangledName": "$s9AppModule13NeuralNetworkC2b1SdvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "b2",
+          "printedName": "b2",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13NeuralNetworkC2b2Sdvp",
+          "mangledName": "$s9AppModule13NeuralNetworkC2b2Sdvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 10,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2b2Sdvg",
+              "mangledName": "$s9AppModule13NeuralNetworkC2b2Sdvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2b2Sdvs",
+              "mangledName": "$s9AppModule13NeuralNetworkC2b2Sdvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2b2SdvM",
+              "mangledName": "$s9AppModule13NeuralNetworkC2b2SdvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "b3",
+          "printedName": "b3",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13NeuralNetworkC2b3Sdvp",
+          "mangledName": "$s9AppModule13NeuralNetworkC2b3Sdvp",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 11,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2b3Sdvg",
+              "mangledName": "$s9AppModule13NeuralNetworkC2b3Sdvg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2b3Sdvs",
+              "mangledName": "$s9AppModule13NeuralNetworkC2b3Sdvs",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13NeuralNetworkC2b3SdvM",
+              "mangledName": "$s9AppModule13NeuralNetworkC2b3SdvM",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NeuralNetwork",
+              "printedName": "AppModule.NeuralNetwork",
+              "usr": "s:9AppModule13NeuralNetworkC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9AppModule13NeuralNetworkCACycfc",
+          "mangledName": "$s9AppModule13NeuralNetworkCACycfc",
+          "moduleName": "AppModule",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "feedforward",
+          "printedName": "feedforward(value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule13NeuralNetworkC11feedforward5valueSdSaySdG_tF",
+          "mangledName": "$s9AppModule13NeuralNetworkC11feedforward5valueSdSaySdG_tF",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "train",
+          "printedName": "train(data:all_y_trues:epochs:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[[Swift.Double]]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Double]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule13NeuralNetworkC5train4data11all_y_trues6epochsySaySaySdGG_AHSitF",
+          "mangledName": "$s9AppModule13NeuralNetworkC5train4data11all_y_trues6epochsySaySaySdGG_AHSitF",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "DoTrain",
+          "printedName": "DoTrain()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule13NeuralNetworkC7DoTrainyyF",
+          "mangledName": "$s9AppModule13NeuralNetworkC7DoTrainyyF",
+          "moduleName": "AppModule",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9AppModule13NeuralNetworkC",
+      "mangledName": "$s9AppModule13NeuralNetworkC",
+      "moduleName": "AppModule",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "Accelerate",
+      "printedName": "Accelerate",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "AppModule"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "numSwfit",
+      "printedName": "numSwfit",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "Exp",
+          "printedName": "Exp(value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule8numSwfitC3Exp5valueS2d_tFZ",
+          "mangledName": "$s9AppModule8numSwfitC3Exp5valueS2d_tFZ",
+          "moduleName": "AppModule",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "Dot",
+          "printedName": "Dot(data:value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule8numSwfitC3Dot4data5valueSaySdGAG_SdtFZ",
+          "mangledName": "$s9AppModule8numSwfitC3Dot4data5valueSaySdGAG_SdtFZ",
+          "moduleName": "AppModule",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "Dot",
+          "printedName": "Dot(data:value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[[Swift.Double]]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Double]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[[Swift.Double]]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Double]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule8numSwfitC3Dot4data5valueSaySaySdGGAH_SdtFZ",
+          "mangledName": "$s9AppModule8numSwfitC3Dot4data5valueSaySaySdGGAH_SdtFZ",
+          "moduleName": "AppModule",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "Dot",
+          "printedName": "Dot(data1:data2:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppModule8numSwfitC3Dot5data15data2SdSaySdG_AGtFZ",
+          "mangledName": "$s9AppModule8numSwfitC3Dot5data15data2SdSaySdG_AGtFZ",
+          "moduleName": "AppModule",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "numSwfit",
+              "printedName": "AppModule.numSwfit",
+              "usr": "s:9AppModule8numSwfitC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9AppModule8numSwfitCACycfc",
+          "mangledName": "$s9AppModule8numSwfitCACycfc",
+          "moduleName": "AppModule",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9AppModule8numSwfitC",
+      "mangledName": "$s9AppModule8numSwfitC",
+      "moduleName": "AppModule",
+      "isOpen": true
+    }
+  ],
+  "json_format_version": 6
+}

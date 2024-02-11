@@ -1,0 +1,2867 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Accelerate",
+      "printedName": "Accelerate",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "result",
+          "printedName": "result",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks11ContentViewV6resultSSvp",
+          "mangledName": "$s14NeuralNetworks11ContentViewV6resultSSvp",
+          "moduleName": "NeuralNetworks",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks11ContentViewV6resultSSvg",
+              "mangledName": "$s14NeuralNetworks11ContentViewV6resultSSvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks11ContentViewV6resultSSvs",
+              "mangledName": "$s14NeuralNetworks11ContentViewV6resultSSvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks11ContentViewV6resultSSvM",
+              "mangledName": "$s14NeuralNetworks11ContentViewV6resultSSvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$result",
+          "printedName": "$result",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks11ContentViewV7$result7SwiftUI7BindingVySSGvp",
+          "mangledName": "$s14NeuralNetworks11ContentViewV7$result7SwiftUI7BindingVySSGvp",
+          "moduleName": "NeuralNetworks",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks11ContentViewV7$result7SwiftUI7BindingVySSGvg",
+              "mangledName": "$s14NeuralNetworks11ContentViewV7$result7SwiftUI7BindingVySSGvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_result",
+          "printedName": "_result",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks11ContentViewV7_result33_36E73FADDE1578390A8BCFBB42C5B6FBLL7SwiftUI5StateVySSGvp",
+          "mangledName": "$s14NeuralNetworks11ContentViewV7_result33_36E73FADDE1578390A8BCFBB42C5B6FBLL7SwiftUI5StateVySSGvp",
+          "moduleName": "NeuralNetworks",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "neuron",
+          "printedName": "neuron",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NeuralNetwork",
+              "printedName": "NeuralNetworks.NeuralNetwork",
+              "usr": "s:14NeuralNetworks0A7NetworkC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks11ContentViewV6neuronAA0A7NetworkCvp",
+          "mangledName": "$s14NeuralNetworks11ContentViewV6neuronAA0A7NetworkCvp",
+          "moduleName": "NeuralNetworks",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NeuralNetwork",
+                  "printedName": "NeuralNetworks.NeuralNetwork",
+                  "usr": "s:14NeuralNetworks0A7NetworkC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks11ContentViewV6neuronAA0A7NetworkCvg",
+              "mangledName": "$s14NeuralNetworks11ContentViewV6neuronAA0A7NetworkCvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "NeuralNetwork",
+                  "printedName": "NeuralNetworks.NeuralNetwork",
+                  "usr": "s:14NeuralNetworks0A7NetworkC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks11ContentViewV6neuronAA0A7NetworkCvs",
+              "mangledName": "$s14NeuralNetworks11ContentViewV6neuronAA0A7NetworkCvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks11ContentViewV6neuronAA0A7NetworkCvM",
+              "mangledName": "$s14NeuralNetworks11ContentViewV6neuronAA0A7NetworkCvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "VStack",
+              "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)>>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TupleView",
+                  "printedName": "SwiftUI.TupleView<(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "OpaqueTypeArchetype",
+                          "printedName": "some SwiftUI.View",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "View",
+                              "printedName": "SwiftUI.View",
+                              "usr": "s:7SwiftUI4ViewP"
+                            }
+                          ]
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Text",
+                          "printedName": "SwiftUI.Text",
+                          "usr": "s:7SwiftUI4TextV"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Divider",
+                          "printedName": "SwiftUI.Divider",
+                          "usr": "s:7SwiftUI7DividerV"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Button",
+                          "printedName": "SwiftUI.Button<SwiftUI.Text>",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Text",
+                              "printedName": "SwiftUI.Text",
+                              "usr": "s:7SwiftUI4TextV"
+                            }
+                          ],
+                          "usr": "s:7SwiftUI6ButtonV"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Text",
+                          "printedName": "SwiftUI.Text",
+                          "usr": "s:7SwiftUI4TextV"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:7SwiftUI9TupleViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI6VStackV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks11ContentViewV4bodyQrvp",
+          "mangledName": "$s14NeuralNetworks11ContentViewV4bodyQrvp",
+          "moduleName": "NeuralNetworks",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "VStack",
+                  "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)>>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TupleView",
+                      "printedName": "SwiftUI.TupleView<(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "OpaqueTypeArchetype",
+                              "printedName": "some SwiftUI.View",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "View",
+                                  "printedName": "SwiftUI.View",
+                                  "usr": "s:7SwiftUI4ViewP"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Text",
+                              "printedName": "SwiftUI.Text",
+                              "usr": "s:7SwiftUI4TextV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Divider",
+                              "printedName": "SwiftUI.Divider",
+                              "usr": "s:7SwiftUI7DividerV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Button",
+                              "printedName": "SwiftUI.Button<SwiftUI.Text>",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Text",
+                                  "printedName": "SwiftUI.Text",
+                                  "usr": "s:7SwiftUI4TextV"
+                                }
+                              ],
+                              "usr": "s:7SwiftUI6ButtonV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Text",
+                              "printedName": "SwiftUI.Text",
+                              "usr": "s:7SwiftUI4TextV"
+                            }
+                          ]
+                        }
+                      ],
+                      "usr": "s:7SwiftUI9TupleViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI6VStackV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks11ContentViewV4bodyQrvg",
+              "mangledName": "$s14NeuralNetworks11ContentViewV4bodyQrvg",
+              "moduleName": "NeuralNetworks",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "NeuralNetworks.ContentView",
+              "usr": "s:14NeuralNetworks11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14NeuralNetworks11ContentViewVACycfc",
+          "mangledName": "$s14NeuralNetworks11ContentViewVACycfc",
+          "moduleName": "NeuralNetworks",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(result:neuron:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "NeuralNetworks.ContentView",
+              "usr": "s:14NeuralNetworks11ContentViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NeuralNetwork",
+              "printedName": "NeuralNetworks.NeuralNetwork",
+              "hasDefaultArg": true,
+              "usr": "s:14NeuralNetworks0A7NetworkC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14NeuralNetworks11ContentViewV6result6neuronACSS_AA0A7NetworkCtcfc",
+          "mangledName": "$s14NeuralNetworks11ContentViewV6result6neuronACSS_AA0A7NetworkCtcfc",
+          "moduleName": "NeuralNetworks",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:14NeuralNetworks11ContentViewV",
+      "mangledName": "$s14NeuralNetworks11ContentViewV",
+      "moduleName": "NeuralNetworks",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "VStack",
+                  "printedName": "SwiftUI.VStack<SwiftUI.TupleView<(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)>>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TupleView",
+                      "printedName": "SwiftUI.TupleView<(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "(some SwiftUI.View, SwiftUI.Text, SwiftUI.Divider, SwiftUI.Button<SwiftUI.Text>, SwiftUI.Text)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "OpaqueTypeArchetype",
+                              "printedName": "some SwiftUI.View",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "View",
+                                  "printedName": "SwiftUI.View",
+                                  "usr": "s:7SwiftUI4ViewP"
+                                }
+                              ]
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Text",
+                              "printedName": "SwiftUI.Text",
+                              "usr": "s:7SwiftUI4TextV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Divider",
+                              "printedName": "SwiftUI.Divider",
+                              "usr": "s:7SwiftUI7DividerV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Button",
+                              "printedName": "SwiftUI.Button<SwiftUI.Text>",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "Text",
+                                  "printedName": "SwiftUI.Text",
+                                  "usr": "s:7SwiftUI4TextV"
+                                }
+                              ],
+                              "usr": "s:7SwiftUI6ButtonV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Text",
+                              "printedName": "SwiftUI.Text",
+                              "usr": "s:7SwiftUI4TextV"
+                            }
+                          ]
+                        }
+                      ],
+                      "usr": "s:7SwiftUI9TupleViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI6VStackV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Accelerate",
+      "printedName": "Accelerate",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MyApp",
+      "printedName": "MyApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WindowGroup",
+              "printedName": "SwiftUI.WindowGroup<NeuralNetworks.ContentView>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ContentView",
+                  "printedName": "NeuralNetworks.ContentView",
+                  "usr": "s:14NeuralNetworks11ContentViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI11WindowGroupV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks5MyAppV4bodyQrvp",
+          "mangledName": "$s14NeuralNetworks5MyAppV4bodyQrvp",
+          "moduleName": "NeuralNetworks",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindowGroup",
+                  "printedName": "SwiftUI.WindowGroup<NeuralNetworks.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "NeuralNetworks.ContentView",
+                      "usr": "s:14NeuralNetworks11ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11WindowGroupV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks5MyAppV4bodyQrvg",
+              "mangledName": "$s14NeuralNetworks5MyAppV4bodyQrvg",
+              "moduleName": "NeuralNetworks",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks5MyAppV5$mainyyFZ",
+          "mangledName": "$s14NeuralNetworks5MyAppV5$mainyyFZ",
+          "moduleName": "NeuralNetworks",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MyApp",
+              "printedName": "NeuralNetworks.MyApp",
+              "usr": "s:14NeuralNetworks5MyAppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14NeuralNetworks5MyAppVACycfc",
+          "mangledName": "$s14NeuralNetworks5MyAppVACycfc",
+          "moduleName": "NeuralNetworks",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:14NeuralNetworks5MyAppV",
+      "mangledName": "$s14NeuralNetworks5MyAppV",
+      "moduleName": "NeuralNetworks",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindowGroup",
+                  "printedName": "SwiftUI.WindowGroup<NeuralNetworks.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "NeuralNetworks.ContentView",
+                      "usr": "s:14NeuralNetworks11ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11WindowGroupV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Accelerate",
+      "printedName": "Accelerate",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Neuron",
+      "printedName": "Neuron",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "weights",
+          "printedName": "weights",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks6NeuronC7weightsSaySdGvp",
+          "mangledName": "$s14NeuralNetworks6NeuronC7weightsSaySdGvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Double]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks6NeuronC7weightsSaySdGvg",
+              "mangledName": "$s14NeuralNetworks6NeuronC7weightsSaySdGvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Double]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks6NeuronC7weightsSaySdGvs",
+              "mangledName": "$s14NeuralNetworks6NeuronC7weightsSaySdGvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks6NeuronC7weightsSaySdGvM",
+              "mangledName": "$s14NeuralNetworks6NeuronC7weightsSaySdGvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "bias",
+          "printedName": "bias",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks6NeuronC4biasSdvp",
+          "mangledName": "$s14NeuralNetworks6NeuronC4biasSdvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks6NeuronC4biasSdvg",
+              "mangledName": "$s14NeuralNetworks6NeuronC4biasSdvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks6NeuronC4biasSdvs",
+              "mangledName": "$s14NeuralNetworks6NeuronC4biasSdvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks6NeuronC4biasSdvM",
+              "mangledName": "$s14NeuralNetworks6NeuronC4biasSdvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(weights:bias:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Neuron",
+              "printedName": "NeuralNetworks.Neuron",
+              "usr": "s:14NeuralNetworks6NeuronC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14NeuralNetworks6NeuronC7weights4biasACSaySdG_Sdtcfc",
+          "mangledName": "$s14NeuralNetworks6NeuronC7weights4biasACSaySdG_Sdtcfc",
+          "moduleName": "NeuralNetworks",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "sigmoid",
+          "printedName": "sigmoid(value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks6NeuronC7sigmoid5valueS2d_tF",
+          "mangledName": "$s14NeuralNetworks6NeuronC7sigmoid5valueS2d_tF",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "feedforward",
+          "printedName": "feedforward(inputs:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks6NeuronC11feedforward6inputsSdSaySdG_tF",
+          "mangledName": "$s14NeuralNetworks6NeuronC11feedforward6inputsSdSaySdG_tF",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "TestNeuron",
+          "printedName": "TestNeuron()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Neuron",
+              "printedName": "NeuralNetworks.Neuron",
+              "usr": "s:14NeuralNetworks6NeuronC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks6NeuronC04TestC0ACyFZ",
+          "mangledName": "$s14NeuralNetworks6NeuronC04TestC0ACyFZ",
+          "moduleName": "NeuralNetworks",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:14NeuralNetworks6NeuronC",
+      "mangledName": "$s14NeuralNetworks6NeuronC",
+      "moduleName": "NeuralNetworks",
+      "isOpen": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NeuralNetwork",
+      "printedName": "NeuralNetwork",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "h1",
+          "printedName": "h1",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Neuron",
+              "printedName": "NeuralNetworks.Neuron",
+              "usr": "s:14NeuralNetworks6NeuronC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks0A7NetworkC2h1AA6NeuronCvp",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC2h1AA6NeuronCvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Neuron",
+                  "printedName": "NeuralNetworks.Neuron",
+                  "usr": "s:14NeuralNetworks6NeuronC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2h1AA6NeuronCvg",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2h1AA6NeuronCvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Neuron",
+                  "printedName": "NeuralNetworks.Neuron",
+                  "usr": "s:14NeuralNetworks6NeuronC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2h1AA6NeuronCvs",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2h1AA6NeuronCvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2h1AA6NeuronCvM",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2h1AA6NeuronCvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "h2",
+          "printedName": "h2",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Neuron",
+              "printedName": "NeuralNetworks.Neuron",
+              "usr": "s:14NeuralNetworks6NeuronC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks0A7NetworkC2h2AA6NeuronCvp",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC2h2AA6NeuronCvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Neuron",
+                  "printedName": "NeuralNetworks.Neuron",
+                  "usr": "s:14NeuralNetworks6NeuronC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2h2AA6NeuronCvg",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2h2AA6NeuronCvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Neuron",
+                  "printedName": "NeuralNetworks.Neuron",
+                  "usr": "s:14NeuralNetworks6NeuronC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2h2AA6NeuronCvs",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2h2AA6NeuronCvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2h2AA6NeuronCvM",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2h2AA6NeuronCvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "o1",
+          "printedName": "o1",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Neuron",
+              "printedName": "NeuralNetworks.Neuron",
+              "usr": "s:14NeuralNetworks6NeuronC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks0A7NetworkC2o1AA6NeuronCvp",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC2o1AA6NeuronCvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Neuron",
+                  "printedName": "NeuralNetworks.Neuron",
+                  "usr": "s:14NeuralNetworks6NeuronC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2o1AA6NeuronCvg",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2o1AA6NeuronCvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Neuron",
+                  "printedName": "NeuralNetworks.Neuron",
+                  "usr": "s:14NeuralNetworks6NeuronC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2o1AA6NeuronCvs",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2o1AA6NeuronCvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2o1AA6NeuronCvM",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2o1AA6NeuronCvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "sigmoid",
+          "printedName": "sigmoid(value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks0A7NetworkC7sigmoid5valueS2d_tF",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC7sigmoid5valueS2d_tF",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "deriv_sigmoid",
+          "printedName": "deriv_sigmoid(value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks0A7NetworkC13deriv_sigmoid5valueS2d_tF",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC13deriv_sigmoid5valueS2d_tF",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "mse_loss",
+          "printedName": "mse_loss(targets:values:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks0A7NetworkC8mse_loss7targets6valuesSdSaySdG_AGtF",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC8mse_loss7targets6valuesSdSaySdG_AGtF",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "w1",
+          "printedName": "w1",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks0A7NetworkC2w1Sdvp",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC2w1Sdvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w1Sdvg",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w1Sdvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w1Sdvs",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w1Sdvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w1SdvM",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w1SdvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "w2",
+          "printedName": "w2",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks0A7NetworkC2w2Sdvp",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC2w2Sdvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w2Sdvg",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w2Sdvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w2Sdvs",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w2Sdvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w2SdvM",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w2SdvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "w3",
+          "printedName": "w3",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks0A7NetworkC2w3Sdvp",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC2w3Sdvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w3Sdvg",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w3Sdvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w3Sdvs",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w3Sdvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w3SdvM",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w3SdvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "w4",
+          "printedName": "w4",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks0A7NetworkC2w4Sdvp",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC2w4Sdvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w4Sdvg",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w4Sdvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w4Sdvs",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w4Sdvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w4SdvM",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w4SdvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "w5",
+          "printedName": "w5",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks0A7NetworkC2w5Sdvp",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC2w5Sdvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 7,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w5Sdvg",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w5Sdvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w5Sdvs",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w5Sdvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w5SdvM",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w5SdvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "w6",
+          "printedName": "w6",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks0A7NetworkC2w6Sdvp",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC2w6Sdvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 8,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w6Sdvg",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w6Sdvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w6Sdvs",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w6Sdvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2w6SdvM",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2w6SdvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "b1",
+          "printedName": "b1",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks0A7NetworkC2b1Sdvp",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC2b1Sdvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 9,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2b1Sdvg",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2b1Sdvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2b1Sdvs",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2b1Sdvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2b1SdvM",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2b1SdvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "b2",
+          "printedName": "b2",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks0A7NetworkC2b2Sdvp",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC2b2Sdvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 10,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2b2Sdvg",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2b2Sdvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2b2Sdvs",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2b2Sdvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2b2SdvM",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2b2SdvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "b3",
+          "printedName": "b3",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14NeuralNetworks0A7NetworkC2b3Sdvp",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC2b3Sdvp",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 11,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2b3Sdvg",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2b3Sdvg",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2b3Sdvs",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2b3Sdvs",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:14NeuralNetworks0A7NetworkC2b3SdvM",
+              "mangledName": "$s14NeuralNetworks0A7NetworkC2b3SdvM",
+              "moduleName": "NeuralNetworks",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NeuralNetwork",
+              "printedName": "NeuralNetworks.NeuralNetwork",
+              "usr": "s:14NeuralNetworks0A7NetworkC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14NeuralNetworks0A7NetworkCACycfc",
+          "mangledName": "$s14NeuralNetworks0A7NetworkCACycfc",
+          "moduleName": "NeuralNetworks",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "feedforward",
+          "printedName": "feedforward(value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks0A7NetworkC11feedforward5valueSdSaySdG_tF",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC11feedforward5valueSdSaySdG_tF",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "train",
+          "printedName": "train(data:all_y_trues:epochs:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[[Swift.Double]]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Double]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks0A7NetworkC5train4data11all_y_trues6epochsySaySaySdGG_AHSitF",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC5train4data11all_y_trues6epochsySaySaySdGG_AHSitF",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "DoTrain",
+          "printedName": "DoTrain()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks0A7NetworkC7DoTrainyyF",
+          "mangledName": "$s14NeuralNetworks0A7NetworkC7DoTrainyyF",
+          "moduleName": "NeuralNetworks",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:14NeuralNetworks0A7NetworkC",
+      "mangledName": "$s14NeuralNetworks0A7NetworkC",
+      "moduleName": "NeuralNetworks",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "Accelerate",
+      "printedName": "Accelerate",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "NeuralNetworks"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "numSwfit",
+      "printedName": "numSwfit",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "Exp",
+          "printedName": "Exp(value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks8numSwfitC3Exp5valueS2d_tFZ",
+          "mangledName": "$s14NeuralNetworks8numSwfitC3Exp5valueS2d_tFZ",
+          "moduleName": "NeuralNetworks",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "Dot",
+          "printedName": "Dot(data:value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks8numSwfitC3Dot4data5valueSaySdGAG_SdtFZ",
+          "mangledName": "$s14NeuralNetworks8numSwfitC3Dot4data5valueSaySdGAG_SdtFZ",
+          "moduleName": "NeuralNetworks",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "Dot",
+          "printedName": "Dot(data:value:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[[Swift.Double]]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Double]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[[Swift.Double]]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Double]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks8numSwfitC3Dot4data5valueSaySaySdGGAH_SdtFZ",
+          "mangledName": "$s14NeuralNetworks8numSwfitC3Dot4data5valueSaySaySdGGAH_SdtFZ",
+          "moduleName": "NeuralNetworks",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "Dot",
+          "printedName": "Dot(data1:data2:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14NeuralNetworks8numSwfitC3Dot5data15data2SdSaySdG_AGtFZ",
+          "mangledName": "$s14NeuralNetworks8numSwfitC3Dot5data15data2SdSaySdG_AGtFZ",
+          "moduleName": "NeuralNetworks",
+          "static": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "numSwfit",
+              "printedName": "NeuralNetworks.numSwfit",
+              "usr": "s:14NeuralNetworks8numSwfitC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14NeuralNetworks8numSwfitCACycfc",
+          "mangledName": "$s14NeuralNetworks8numSwfitCACycfc",
+          "moduleName": "NeuralNetworks",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:14NeuralNetworks8numSwfitC",
+      "mangledName": "$s14NeuralNetworks8numSwfitC",
+      "moduleName": "NeuralNetworks",
+      "isOpen": true
+    }
+  ],
+  "json_format_version": 6
+}

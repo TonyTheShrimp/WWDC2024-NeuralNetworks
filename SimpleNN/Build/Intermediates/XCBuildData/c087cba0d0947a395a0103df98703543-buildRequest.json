@@ -1,0 +1,66 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "PACKAGE-PRODUCT:NeuralNetworks"
+    },
+    {
+      "guid" : "PACKAGE-TARGET:AppModule--258652ACFE1470-testable"
+    }
+  ],
+  "containerPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/SimpleNN/NeuralNetworks.swiftpm",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/SimpleNN/Build/Intermediates",
+      "buildProductsPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/SimpleNN/Build",
+      "derivedDataPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/SimpleNN/NeuralNetworks.swiftpm/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/SimpleNN/NeuralNetworks.swiftpm/DerivedData/NeuralNetworks/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/SimpleNN/NeuralNetworks.swiftpm/DerivedData/NeuralNetworks/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/SimpleNN/Build/Intermediates/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPod9,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.2",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "C5AEC5B7-3A05-480E-A9C9-514EED7B4FD1",
+          "TARGET_DEVICE_MODEL" : "iPod9,1",
+          "TARGET_DEVICE_OS_VERSION" : "15.2",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+ImageDrawer in ImageDrawer, no dependencies
+AppModule in ImageDrawer, no dependencies

@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "df38244fb4712bf8ad8d7860742dd5a9fcfa593d37e50a8395616bcf99d7354e"
+build_start_time: [1707624748, 296571969]
+build_end_time: [1707624750, 428334951]
+inputs:
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/ContentView.swift": [1707624742, 757099628]
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DataSet.swift": [1707621244, 741370677]
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/MyApp.swift": [1707445444, 383458375]

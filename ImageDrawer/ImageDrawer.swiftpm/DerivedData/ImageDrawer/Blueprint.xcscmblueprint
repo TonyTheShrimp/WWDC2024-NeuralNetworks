@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1134B94281568D79B14F610C57A682E839D709EB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1134B94281568D79B14F610C57A682E839D709EB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6EF215FA-8E4E-49B4-978F-5ECF18296892",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1134B94281568D79B14F610C57A682E839D709EB" : "NeuralNetworks\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ImageDrawer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ImageDrawer\/ImageDrawer.swiftpm",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TonyTheShrimp\/WWDC2024-NeuralNetworks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1134B94281568D79B14F610C57A682E839D709EB"
+    }
+  ]
+}

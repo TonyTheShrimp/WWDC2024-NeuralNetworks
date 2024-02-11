@@ -1,0 +1,14 @@
+client:
+  name: basic
+  version: 0
+  file-system: default
+
+targets:
+  "": ["<all>"]
+
+commands:
+  "::WriteAuxiliaryFile /Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DerivedData/ImageDrawer/Index/Build/Intermediates.noindex/index-to-index-overlay.yaml": {"tool":"auxiliary-file","description":"WriteAuxiliaryFile /Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DerivedData/ImageDrawer/Index/Build/Intermediates.noindex/index-to-index-overlay.yaml","inputs":[],"outputs":["/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DerivedData/ImageDrawer/Index/Build/Intermediates.noindex/index-to-index-overlay.yaml"]}
+  "::WriteAuxiliaryFile /Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DerivedData/ImageDrawer/Index/Build/Intermediates.noindex/index-to-regular-overlay.yaml": {"tool":"auxiliary-file","description":"WriteAuxiliaryFile /Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DerivedData/ImageDrawer/Index/Build/Intermediates.noindex/index-to-regular-overlay.yaml","inputs":[],"outputs":["/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DerivedData/ImageDrawer/Index/Build/Intermediates.noindex/index-to-regular-overlay.yaml"]}
+  "::WriteAuxiliaryFile /Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DerivedData/ImageDrawer/Index/Build/Intermediates.noindex/regular-to-index-overlay.yaml": {"tool":"auxiliary-file","description":"WriteAuxiliaryFile /Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DerivedData/ImageDrawer/Index/Build/Intermediates.noindex/regular-to-index-overlay.yaml","inputs":[],"outputs":["/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DerivedData/ImageDrawer/Index/Build/Intermediates.noindex/regular-to-index-overlay.yaml"]}
+  "<all>": {"tool":"phony","inputs":["/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DerivedData/ImageDrawer/Index/Build/Intermediates.noindex/index-to-index-overlay.yaml","/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DerivedData/ImageDrawer/Index/Build/Intermediates.noindex/index-to-regular-overlay.yaml","/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageDrawer/ImageDrawer.swiftpm/DerivedData/ImageDrawer/Index/Build/Intermediates.noindex/regular-to-index-overlay.yaml"],"outputs":["<all>"]}
+

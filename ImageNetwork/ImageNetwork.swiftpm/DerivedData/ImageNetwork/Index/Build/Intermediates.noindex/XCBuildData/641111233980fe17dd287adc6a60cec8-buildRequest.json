@@ -1,0 +1,62 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "PACKAGE-TARGET:AppModule--258652ACFE1470-testable"
+    },
+    {
+      "guid" : "PACKAGE-PRODUCT:ImageNetwork"
+    }
+  ],
+  "containerPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/ImageNetwork.swiftpm",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/ImageNetwork.swiftpm/DerivedData/ImageNetwork/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/ImageNetwork.swiftpm/DerivedData/ImageNetwork/Index/Build/Products",
+      "derivedDataPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/ImageNetwork.swiftpm/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/ImageNetwork.swiftpm/DerivedData/ImageNetwork/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/ImageNetwork.swiftpm/DerivedData/ImageNetwork/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/ImageNetwork.swiftpm/DerivedData/ImageNetwork/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/Build",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

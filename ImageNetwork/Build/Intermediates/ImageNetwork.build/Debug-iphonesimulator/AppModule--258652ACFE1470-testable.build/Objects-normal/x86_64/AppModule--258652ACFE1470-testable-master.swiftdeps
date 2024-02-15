@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "df38244fb4712bf8ad8d7860742dd5a9fcfa593d37e50a8395616bcf99d7354e"
+build_start_time: [1707831454, 886266946]
+build_end_time: [1707831456, 643341064]
+inputs:
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/ImageNetwork.swiftpm/ContentView.swift": [1707815594, 423507213]
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/ImageNetwork.swiftpm/DataSet.swift": [1707743248, 975996494]
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/ImageNetwork.swiftpm/ImageNetwork.swift": [1707831450, 373893976]
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/ImageNetwork.swiftpm/MyApp.swift": [1707706887, 124097347]
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/ImageNetwork/ImageNetwork.swiftpm/numSwift.swift": [1707725757, 528906106]

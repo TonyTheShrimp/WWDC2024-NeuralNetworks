@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>65D3EC7B-450C-4304-A32F-FFA3BD35DCF2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>65D3EC7B-450C-4304-A32F-FFA3BD35DCF2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>AppModule-dgoxszhypmfthlfojuricanozvzj</string>
+			<key>timeStartedRecording</key>
+			<real>729524254.81090605</real>
+			<key>timeStoppedRecording</key>
+			<real>729524256.70622206</real>
+			<key>title</key>
+			<string>Build target AppModule</string>
+			<key>uniqueIdentifier</key>
+			<string>65D3EC7B-450C-4304-A32F-FFA3BD35DCF2</string>
+		</dict>
+		<key>D8676624-2F48-4FE6-8D1D-7D0FAA6CD4C0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>D8676624-2F48-4FE6-8D1D-7D0FAA6CD4C0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>ImageNetwork-dgoxszhypmfthlfojuricanozvzj</string>
+			<key>timeStartedRecording</key>
+			<real>729524251.63151896</real>
+			<key>timeStoppedRecording</key>
+			<real>729524256.70728803</real>
+			<key>title</key>
+			<string>Build target ImageNetwork</string>
+			<key>uniqueIdentifier</key>
+			<string>D8676624-2F48-4FE6-8D1D-7D0FAA6CD4C0</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

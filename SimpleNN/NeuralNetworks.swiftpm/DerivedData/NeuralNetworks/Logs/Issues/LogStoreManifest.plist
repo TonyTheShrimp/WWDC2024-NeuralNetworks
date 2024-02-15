@@ -6,6 +6,34 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>475D9A62-3EB5-48E9-A2D7-00E723B16701</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>475D9A62-3EB5-48E9-A2D7-00E723B16701.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>AppModule-ebwnskouhzlckifrbwboeuuuryyo</string>
+			<key>timeStartedRecording</key>
+			<real>729504845.25031698</real>
+			<key>timeStoppedRecording</key>
+			<real>729504846.45513296</real>
+			<key>title</key>
+			<string>Build target AppModule</string>
+			<key>uniqueIdentifier</key>
+			<string>475D9A62-3EB5-48E9-A2D7-00E723B16701</string>
+		</dict>
 		<key>56D6BFCD-A8B5-4BAE-A6BB-0F74B2C2793D</key>
 		<dict>
 			<key>className</key>
@@ -61,6 +89,34 @@
 			<string>Build target NeuralNetworks</string>
 			<key>uniqueIdentifier</key>
 			<string>A5938E15-0BD0-4378-8623-3118EB13207C</string>
+		</dict>
+		<key>D523453C-F9CB-4AAB-A180-50A1E33B1262</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>D523453C-F9CB-4AAB-A180-50A1E33B1262.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>NeuralNetworks-ebwnskouhzlckifrbwboeuuuryyo</string>
+			<key>timeStartedRecording</key>
+			<real>729504843.30096996</real>
+			<key>timeStoppedRecording</key>
+			<real>729504846.45620501</real>
+			<key>title</key>
+			<string>Build target NeuralNetworks</string>
+			<key>uniqueIdentifier</key>
+			<string>D523453C-F9CB-4AAB-A180-50A1E33B1262</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

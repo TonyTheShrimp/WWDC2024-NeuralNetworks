@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>216CEE8C-6935-4D7A-9EEC-9DD77FE9CCDE</key>
+		<key>2A18D419-CD3C-41AA-BFBF-7C3CD05A5C9D</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,177 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>216CEE8C-6935-4D7A-9EEC-9DD77FE9CCDE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NeuralNetworks.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NeuralNetworks</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Clean NeuralNetworks</string>
-			<key>timeStartedRecording</key>
-			<real>729097987.22154796</real>
-			<key>timeStoppedRecording</key>
-			<real>729097987.51307905</real>
-			<key>title</key>
-			<string>Clean NeuralNetworks</string>
-			<key>uniqueIdentifier</key>
-			<string>216CEE8C-6935-4D7A-9EEC-9DD77FE9CCDE</string>
-		</dict>
-		<key>35F6AFEA-7371-414B-93D5-3F6C8AA6A656</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>35F6AFEA-7371-414B-93D5-3F6C8AA6A656.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NeuralNetworks.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NeuralNetworks</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Clean NeuralNetworks</string>
-			<key>timeStartedRecording</key>
-			<real>729098145.13943994</real>
-			<key>timeStoppedRecording</key>
-			<real>729098145.23742199</real>
-			<key>title</key>
-			<string>Clean NeuralNetworks</string>
-			<key>uniqueIdentifier</key>
-			<string>35F6AFEA-7371-414B-93D5-3F6C8AA6A656</string>
-		</dict>
-		<key>51537403-9473-4734-A849-EC82CE5ABF77</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>51537403-9473-4734-A849-EC82CE5ABF77.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NeuralNetworks.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NeuralNetworks</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Clean NeuralNetworks</string>
-			<key>timeStartedRecording</key>
-			<real>729097646.16506302</real>
-			<key>timeStoppedRecording</key>
-			<real>729097646.53278804</real>
-			<key>title</key>
-			<string>Clean NeuralNetworks</string>
-			<key>uniqueIdentifier</key>
-			<string>51537403-9473-4734-A849-EC82CE5ABF77</string>
-		</dict>
-		<key>6D0126C9-3253-42E9-8FBD-FC03D9D63A2A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>6D0126C9-3253-42E9-8FBD-FC03D9D63A2A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NeuralNetworks.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NeuralNetworks</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NeuralNetworks</string>
-			<key>timeStartedRecording</key>
-			<real>729097651.58658695</real>
-			<key>timeStoppedRecording</key>
-			<real>729097651.97682297</real>
-			<key>title</key>
-			<string>Build NeuralNetworks</string>
-			<key>uniqueIdentifier</key>
-			<string>6D0126C9-3253-42E9-8FBD-FC03D9D63A2A</string>
-		</dict>
-		<key>79AE8CD9-4A22-4B7C-BD79-A71BA37767C4</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>79AE8CD9-4A22-4B7C-BD79-A71BA37767C4.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NeuralNetworks.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NeuralNetworks</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NeuralNetworks</string>
-			<key>timeStartedRecording</key>
-			<real>729097613.84394503</real>
-			<key>timeStoppedRecording</key>
-			<real>729097615.68480301</real>
-			<key>title</key>
-			<string>Build NeuralNetworks</string>
-			<key>uniqueIdentifier</key>
-			<string>79AE8CD9-4A22-4B7C-BD79-A71BA37767C4</string>
-		</dict>
-		<key>7FA98FB8-6A08-4A51-9A6C-FD00F1D23EA6</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7FA98FB8-6A08-4A51-9A6C-FD00F1D23EA6.xcactivitylog</string>
+			<string>2A18D419-CD3C-41AA-BFBF-7C3CD05A5C9D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +32,15 @@
 			<key>signature</key>
 			<string>Build NeuralNetworks</string>
 			<key>timeStartedRecording</key>
-			<real>729091495.07680905</real>
+			<real>729504843.213938</real>
 			<key>timeStoppedRecording</key>
-			<real>729091497.74947</real>
+			<real>729504846.46647704</real>
 			<key>title</key>
 			<string>Build NeuralNetworks</string>
 			<key>uniqueIdentifier</key>
-			<string>7FA98FB8-6A08-4A51-9A6C-FD00F1D23EA6</string>
+			<string>2A18D419-CD3C-41AA-BFBF-7C3CD05A5C9D</string>
 		</dict>
-		<key>9D6E925F-5870-40A2-90FC-662DAE6CC8B2</key>
+		<key>2E29E889-D292-4167-8935-65981720D8E8</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -219,41 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>9D6E925F-5870-40A2-90FC-662DAE6CC8B2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>NeuralNetworks.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>NeuralNetworks</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build NeuralNetworks</string>
-			<key>timeStartedRecording</key>
-			<real>729097992.04447603</real>
-			<key>timeStoppedRecording</key>
-			<real>729097992.67530799</real>
-			<key>title</key>
-			<string>Build NeuralNetworks</string>
-			<key>uniqueIdentifier</key>
-			<string>9D6E925F-5870-40A2-90FC-662DAE6CC8B2</string>
-		</dict>
-		<key>DC79A3E6-D310-4B41-9BC4-23144A7B72B8</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>DC79A3E6-D310-4B41-9BC4-23144A7B72B8.xcactivitylog</string>
+			<string>2E29E889-D292-4167-8935-65981720D8E8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,13 +66,183 @@
 			<key>signature</key>
 			<string>Build NeuralNetworks</string>
 			<key>timeStartedRecording</key>
-			<real>729098146.63604605</real>
+			<real>729504819.19736004</real>
 			<key>timeStoppedRecording</key>
-			<real>729098158.52076006</real>
+			<real>729504822.27319801</real>
 			<key>title</key>
 			<string>Build NeuralNetworks</string>
 			<key>uniqueIdentifier</key>
-			<string>DC79A3E6-D310-4B41-9BC4-23144A7B72B8</string>
+			<string>2E29E889-D292-4167-8935-65981720D8E8</string>
+		</dict>
+		<key>4AABD4B7-EA33-4AE6-9C21-DBE0BBEA9FF8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4AABD4B7-EA33-4AE6-9C21-DBE0BBEA9FF8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NeuralNetworks.swiftpm</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NeuralNetworks</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build NeuralNetworks</string>
+			<key>timeStartedRecording</key>
+			<real>729504759.99903798</real>
+			<key>timeStoppedRecording</key>
+			<real>729504763.46814799</real>
+			<key>title</key>
+			<string>Build NeuralNetworks</string>
+			<key>uniqueIdentifier</key>
+			<string>4AABD4B7-EA33-4AE6-9C21-DBE0BBEA9FF8</string>
+		</dict>
+		<key>651745A1-BDCC-434D-84F9-0B130A34C8D5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>651745A1-BDCC-434D-84F9-0B130A34C8D5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NeuralNetworks.swiftpm</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NeuralNetworks</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews NeuralNetworks</string>
+			<key>timeStartedRecording</key>
+			<real>729401253.43126595</real>
+			<key>timeStoppedRecording</key>
+			<real>729401257.72555697</real>
+			<key>title</key>
+			<string>Build for Previews NeuralNetworks</string>
+			<key>uniqueIdentifier</key>
+			<string>651745A1-BDCC-434D-84F9-0B130A34C8D5</string>
+		</dict>
+		<key>C72AF13F-39AB-478B-8B7E-F3808A3A3D46</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C72AF13F-39AB-478B-8B7E-F3808A3A3D46.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NeuralNetworks.swiftpm</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NeuralNetworks</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build NeuralNetworks</string>
+			<key>timeStartedRecording</key>
+			<real>729504638.79102004</real>
+			<key>timeStoppedRecording</key>
+			<real>729504642.59408605</real>
+			<key>title</key>
+			<string>Build NeuralNetworks</string>
+			<key>uniqueIdentifier</key>
+			<string>C72AF13F-39AB-478B-8B7E-F3808A3A3D46</string>
+		</dict>
+		<key>F56E9CEE-DCE8-4DB4-B3CA-61A1C2F7DBFE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F56E9CEE-DCE8-4DB4-B3CA-61A1C2F7DBFE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NeuralNetworks.swiftpm</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NeuralNetworks</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews NeuralNetworks</string>
+			<key>timeStartedRecording</key>
+			<real>729498255.79381502</real>
+			<key>timeStoppedRecording</key>
+			<real>729498261.15885794</real>
+			<key>title</key>
+			<string>Build for Previews NeuralNetworks</string>
+			<key>uniqueIdentifier</key>
+			<string>F56E9CEE-DCE8-4DB4-B3CA-61A1C2F7DBFE</string>
+		</dict>
+		<key>FA043B9D-7914-403E-BAB3-B556FD3C3BC2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FA043B9D-7914-403E-BAB3-B556FD3C3BC2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NeuralNetworks.swiftpm</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NeuralNetworks</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build NeuralNetworks</string>
+			<key>timeStartedRecording</key>
+			<real>729504789.93149102</real>
+			<key>timeStoppedRecording</key>
+			<real>729504793.14775598</real>
+			<key>title</key>
+			<string>Build NeuralNetworks</string>
+			<key>uniqueIdentifier</key>
+			<string>FA043B9D-7914-403E-BAB3-B556FD3C3BC2</string>
 		</dict>
 	</dict>
 </dict>

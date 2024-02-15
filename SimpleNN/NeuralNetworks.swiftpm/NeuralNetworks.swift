@@ -205,16 +205,22 @@ class NeuralNetwork {
         
         let emily = [-7.0, -3.0] // 128 pounds, 63 inches
         let frank = [20.0, 2.0]  // 155 pounds, 68 inches
+        let tony = [5.0, 4.0] // 128 pounds, 63 inches
+        let winnie = [15.0, -6.0]  // 155 pounds, 68 inches
         
         print("Before train....")
-        print("Emily: " + String(feedforward(value:emily)) ) // 0.951 - F
-        print("Frank: " + String(feedforward(value:frank)) ) // 0.039 - M
+        print("Emily : " + String(feedforward(value:emily)) ) // 0.951 - F
+        print("Frank : " + String(feedforward(value:frank)) ) // 0.039 - M
+        print("Tony  : " + String(feedforward(value:tony)) ) // 0.951 - F
+        print("Winnie: " + String(feedforward(value:winnie)) ) // 0.039 - M
         
         train( data:data, all_y_trues:all_y_trues, epochs:1000)
         
         print("After train....")
-        print("Emily: " + String(feedforward(value:emily)) ) // 0.951 - F
-        print("Frank: " + String(feedforward(value:frank)) ) // 0.039 - M
+        print("Emily : " + String(feedforward(value:emily)) ) // 0.951 - F
+        print("Frank : " + String(feedforward(value:frank)) ) // 0.039 - M
+        print("Tony  : " + String(feedforward(value:tony)) ) // 0.951 - F
+        print("Winnie: " + String(feedforward(value:winnie)) ) // 0.039 - M
     }
     
 }

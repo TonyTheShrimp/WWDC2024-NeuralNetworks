@@ -2,7 +2,7 @@
 //  File.swift
 //  ImageDrawer
 //
-//  Created by Xiaoyu Ma on 2024/2/9.
+//  Created by Wentao Ma on 2024/2/9.
 //
 
 import Foundation
@@ -51,7 +51,7 @@ class ImageData: Codable,Hashable {
     init(){
         hashCode = Int.random(in:-1000000...1000000)
         
-        data = [0,0,0,0,0,0]
+        data = [0,0,0,0,0]
     }
 }
 

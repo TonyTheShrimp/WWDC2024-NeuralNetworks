@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0BC2D003-C963-49BF-8D4E-DDCB2E3D26D0</key>
+		<key>17F86060-077E-4341-9806-1F372856D12B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0BC2D003-C963-49BF-8D4E-DDCB2E3D26D0.xcactivitylog</string>
+			<string>17F86060-077E-4341-9806-1F372856D12B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Build ImageDrawer</string>
 			<key>timeStartedRecording</key>
-			<real>729315897.57409406</real>
+			<real>729517454.19446695</real>
 			<key>timeStoppedRecording</key>
-			<real>729315902.817698</real>
+			<real>729517454.28500199</real>
 			<key>title</key>
 			<string>Build ImageDrawer</string>
 			<key>uniqueIdentifier</key>
-			<string>0BC2D003-C963-49BF-8D4E-DDCB2E3D26D0</string>
+			<string>17F86060-077E-4341-9806-1F372856D12B</string>
 		</dict>
-		<key>113F9FA7-23FD-435E-800A-A83EA117E446</key>
+		<key>190990CE-7126-4615-962D-C8CC69026B5D</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,41 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>113F9FA7-23FD-435E-800A-A83EA117E446.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729317051.83680296</real>
-			<key>timeStoppedRecording</key>
-			<real>729317054.15099001</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>113F9FA7-23FD-435E-800A-A83EA117E446</string>
-		</dict>
-		<key>16323D11-1974-4491-B365-552E762D3103</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>16323D11-1974-4491-B365-552E762D3103.xcactivitylog</string>
+			<string>190990CE-7126-4615-962D-C8CC69026B5D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +66,15 @@
 			<key>signature</key>
 			<string>Build ImageDrawer</string>
 			<key>timeStartedRecording</key>
-			<real>729317545.64356303</real>
+			<real>729516479.56626499</real>
 			<key>timeStoppedRecording</key>
-			<real>729317550.91872394</real>
+			<real>729516479.72303402</real>
 			<key>title</key>
 			<string>Build ImageDrawer</string>
 			<key>uniqueIdentifier</key>
-			<string>16323D11-1974-4491-B365-552E762D3103</string>
+			<string>190990CE-7126-4615-962D-C8CC69026B5D</string>
 		</dict>
-		<key>18210BA9-7CD7-4919-BBE8-57FE49C2CDC0</key>
+		<key>477F81F9-38CA-49B7-BE7E-B72C3841E819</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -117,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>18210BA9-7CD7-4919-BBE8-57FE49C2CDC0.xcactivitylog</string>
+			<string>477F81F9-38CA-49B7-BE7E-B72C3841E819.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +100,15 @@
 			<key>signature</key>
 			<string>Build ImageDrawer</string>
 			<key>timeStartedRecording</key>
-			<real>729315089.08199298</real>
+			<real>729442235.23580503</real>
 			<key>timeStoppedRecording</key>
-			<real>729315094.50105202</real>
+			<real>729442235.306741</real>
 			<key>title</key>
 			<string>Build ImageDrawer</string>
 			<key>uniqueIdentifier</key>
-			<string>18210BA9-7CD7-4919-BBE8-57FE49C2CDC0</string>
+			<string>477F81F9-38CA-49B7-BE7E-B72C3841E819</string>
 		</dict>
-		<key>348DA322-CD13-4436-9A3B-0C3ADF516F95</key>
+		<key>973905BB-E57D-488F-BB78-B70D3CBEA33F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -151,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>348DA322-CD13-4436-9A3B-0C3ADF516F95.xcactivitylog</string>
+			<string>973905BB-E57D-488F-BB78-B70D3CBEA33F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +134,15 @@
 			<key>signature</key>
 			<string>Build ImageDrawer</string>
 			<key>timeStartedRecording</key>
-			<real>729314285.67495</real>
+			<real>729525127.02333295</real>
 			<key>timeStoppedRecording</key>
-			<real>729314285.75202298</real>
+			<real>729525127.134215</real>
 			<key>title</key>
 			<string>Build ImageDrawer</string>
 			<key>uniqueIdentifier</key>
-			<string>348DA322-CD13-4436-9A3B-0C3ADF516F95</string>
+			<string>973905BB-E57D-488F-BB78-B70D3CBEA33F</string>
 		</dict>
-		<key>43FA2743-FAFE-43B7-B2EB-613C850D1BAA</key>
+		<key>E2F352B5-8998-4A0E-B73F-C548A4C2B3C7</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -185,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>43FA2743-FAFE-43B7-B2EB-613C850D1BAA.xcactivitylog</string>
+			<string>E2F352B5-8998-4A0E-B73F-C548A4C2B3C7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,455 +168,13 @@
 			<key>signature</key>
 			<string>Build ImageDrawer</string>
 			<key>timeStartedRecording</key>
-			<real>729315566.59458804</real>
+			<real>729477485.474419</real>
 			<key>timeStoppedRecording</key>
-			<real>729315572.01331902</real>
+			<real>729477486.22227299</real>
 			<key>title</key>
 			<string>Build ImageDrawer</string>
 			<key>uniqueIdentifier</key>
-			<string>43FA2743-FAFE-43B7-B2EB-613C850D1BAA</string>
-		</dict>
-		<key>4AB7CFB6-C0C4-4817-937F-71C2E81C2C78</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4AB7CFB6-C0C4-4817-937F-71C2E81C2C78.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729315685.43843102</real>
-			<key>timeStoppedRecording</key>
-			<real>729315690.46273005</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>4AB7CFB6-C0C4-4817-937F-71C2E81C2C78</string>
-		</dict>
-		<key>51BAAB9F-B375-4954-A48D-80A42914441C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>51BAAB9F-B375-4954-A48D-80A42914441C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729316084.15510094</real>
-			<key>timeStoppedRecording</key>
-			<real>729316089.52003503</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>51BAAB9F-B375-4954-A48D-80A42914441C</string>
-		</dict>
-		<key>5A5C8CF2-2012-420A-A33C-8A06E85C0912</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5A5C8CF2-2012-420A-A33C-8A06E85C0912.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729315371.28844404</real>
-			<key>timeStoppedRecording</key>
-			<real>729315376.60676801</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>5A5C8CF2-2012-420A-A33C-8A06E85C0912</string>
-		</dict>
-		<key>5C4F931F-B1AD-4AE8-AF5F-42B0D384CECF</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5C4F931F-B1AD-4AE8-AF5F-42B0D384CECF.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729315947.78666604</real>
-			<key>timeStoppedRecording</key>
-			<real>729315952.91847801</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>5C4F931F-B1AD-4AE8-AF5F-42B0D384CECF</string>
-		</dict>
-		<key>8DF2E185-4944-4DBA-98E1-1F0CBA7B88E2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8DF2E185-4944-4DBA-98E1-1F0CBA7B88E2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729275045.83401704</real>
-			<key>timeStoppedRecording</key>
-			<real>729275050.76556599</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>8DF2E185-4944-4DBA-98E1-1F0CBA7B88E2</string>
-		</dict>
-		<key>9606E126-7021-458A-A7EA-1E2FA0A890DA</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>9606E126-7021-458A-A7EA-1E2FA0A890DA.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729317068.17351997</real>
-			<key>timeStoppedRecording</key>
-			<real>729317073.25023103</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>9606E126-7021-458A-A7EA-1E2FA0A890DA</string>
-		</dict>
-		<key>98CC6BB7-34F3-4EFD-A9D0-5FADB949F9C8</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>98CC6BB7-34F3-4EFD-A9D0-5FADB949F9C8.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729314575.43926406</real>
-			<key>timeStoppedRecording</key>
-			<real>729314575.51150501</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>98CC6BB7-34F3-4EFD-A9D0-5FADB949F9C8</string>
-		</dict>
-		<key>A8410E8E-A9B8-4EFD-8520-21EF6243A33E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A8410E8E-A9B8-4EFD-8520-21EF6243A33E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729317168.35415399</real>
-			<key>timeStoppedRecording</key>
-			<real>729317173.40411997</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>A8410E8E-A9B8-4EFD-8520-21EF6243A33E</string>
-		</dict>
-		<key>B47B8D3B-73AD-47FE-9A5D-131A97975526</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B47B8D3B-73AD-47FE-9A5D-131A97975526.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729314680.19119704</real>
-			<key>timeStoppedRecording</key>
-			<real>729314683.62385201</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>B47B8D3B-73AD-47FE-9A5D-131A97975526</string>
-		</dict>
-		<key>C6C1C47F-58B3-4218-BFEC-905295AED6F6</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C6C1C47F-58B3-4218-BFEC-905295AED6F6.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729314915.11126101</real>
-			<key>timeStoppedRecording</key>
-			<real>729314920.39414096</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>C6C1C47F-58B3-4218-BFEC-905295AED6F6</string>
-		</dict>
-		<key>D0AFC283-6E9F-4C4E-928F-C982E3E93F1B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>D0AFC283-6E9F-4C4E-928F-C982E3E93F1B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729314642.47379994</real>
-			<key>timeStoppedRecording</key>
-			<real>729314646.46310794</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>D0AFC283-6E9F-4C4E-928F-C982E3E93F1B</string>
-		</dict>
-		<key>D42A3B72-1646-4CE1-A4D2-41DA5ECACBC9</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>D42A3B72-1646-4CE1-A4D2-41DA5ECACBC9.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729314058.17940295</real>
-			<key>timeStoppedRecording</key>
-			<real>729314061.52044404</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>D42A3B72-1646-4CE1-A4D2-41DA5ECACBC9</string>
-		</dict>
-		<key>F4572A98-763A-4ED7-9F9C-58DF83B0628A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F4572A98-763A-4ED7-9F9C-58DF83B0628A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>ImageDrawer.swiftpm</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>ImageDrawer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build ImageDrawer</string>
-			<key>timeStartedRecording</key>
-			<real>729313906.91017699</real>
-			<key>timeStoppedRecording</key>
-			<real>729313913.00814795</real>
-			<key>title</key>
-			<string>Build ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>F4572A98-763A-4ED7-9F9C-58DF83B0628A</string>
+			<string>E2F352B5-8998-4A0E-B73F-C548A4C2B3C7</string>
 		</dict>
 	</dict>
 </dict>

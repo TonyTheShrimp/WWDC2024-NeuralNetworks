@@ -5,64 +5,7 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict>
-		<key>7DBD47FA-C61E-44D2-9CE6-13D6AD1E2A48</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
-			<key>fileName</key>
-			<string>7DBD47FA-C61E-44D2-9CE6-13D6AD1E2A48.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>ImageDrawer-euuuwhlhlmpgqifnkgmftwlpeosd</string>
-			<key>timeStartedRecording</key>
-			<real>729317545.74202597</real>
-			<key>timeStoppedRecording</key>
-			<real>729317550.91170204</real>
-			<key>title</key>
-			<string>Build target ImageDrawer</string>
-			<key>uniqueIdentifier</key>
-			<string>7DBD47FA-C61E-44D2-9CE6-13D6AD1E2A48</string>
-		</dict>
-		<key>A479752B-E788-426D-9EC4-5C2117ABE8DC</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
-			<key>fileName</key>
-			<string>A479752B-E788-426D-9EC4-5C2117ABE8DC.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>AppModule-euuuwhlhlmpgqifnkgmftwlpeosd</string>
-			<key>timeStartedRecording</key>
-			<real>729317548.23607898</real>
-			<key>timeStoppedRecording</key>
-			<real>729317550.53748095</real>
-			<key>title</key>
-			<string>Build target AppModule</string>
-			<key>uniqueIdentifier</key>
-			<string>A479752B-E788-426D-9EC4-5C2117ABE8DC</string>
-		</dict>
-	</dict>
+	<dict/>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>

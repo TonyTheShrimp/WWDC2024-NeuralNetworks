@@ -82,7 +82,7 @@ struct ContentView: View {
                             ForEach(0..<curSymbolSet.data.count, id: \.self)  { index in
                                 VStack{
                                     ImageEditView(touchedCell: $touchedCell, data:$curSymbolSet.data[index].data[0].data, cellSize: 12)
-                                        .frame(width: 72, height: 72)
+                                        .frame(width: 60, height: 60)
                                     /*
                                         .gesture(
                                             DragGesture(minimumDistance: 0)
@@ -123,7 +123,7 @@ struct ContentView: View {
                             ForEach(0..<curSymbol.data.count, id: \.self)  { index in
                                 VStack{
                                     ImageEditView(touchedCell: $touchedCell, data:$curSymbol.data[index].data,  cellSize: 12)
-                                        .frame(width: 72, height: 72)
+                                        .frame(width: 60, height: 60)
                                     /*
                                         .gesture(
                                             DragGesture(minimumDistance: 0)
@@ -165,7 +165,7 @@ struct ContentView: View {
                 else if currentView==3 {
                     VStack {
                         Text( "Image Editor")
-                        ImageEditView(touchedCell: $touchedCell, data:$curImageData.data, cellSize: 40)
+                        ImageEditView(touchedCell: $touchedCell, data:$curImageData.data, cellSize: 48)
                             .frame(width: 240, height: 240)
                             .gesture(
                                 DragGesture(minimumDistance: 0)
@@ -193,20 +193,21 @@ struct ContentView: View {
             }
         }
     }
-            
+        
+    let imageSize = 5
     
     func updateTouchedCell(location: CGPoint) {
         print("updateTouchedCell")
         print(location)
-        let columnWidth = 240 / 6
-        let rowHeight = 240 / 6
+        let columnWidth = 240 / imageSize
+        let rowHeight = 240 / imageSize
         
         let bit = [1,2,4,8,16,32,64]
         
         let column = Int(location.x) / columnWidth
         let row = Int(location.y) / rowHeight
         
-        if column >= 0 && column < 6 && row >= 0 && row < 6  {
+        if column >= 0 && column < imageSize && row >= 0 && row < imageSize  {
             
             
             print("In:"+String(column)+"-"+String(row)+"-"+String(lastCol)+"-"+String(lastRow));
@@ -256,12 +257,13 @@ struct ImageEditView: View {
     
     var cellSize: CGFloat
     let bit = [1,2,4,8,16,32,64]
+    let imageSize = 5
     
     var body: some View {
         VStack(spacing: 0) {
-            ForEach(0...5, id: \.self) { row in
+            ForEach(0..<imageSize, id: \.self) { row in
                 HStack(spacing: 0) {
-                    ForEach(0...5, id: \.self) { column in
+                    ForEach(0..<imageSize, id: \.self) { column in
                         if(data[row]&bit[column])==0{
                             Rectangle()
                                 .fill(Color.white)

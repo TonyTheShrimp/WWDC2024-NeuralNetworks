@@ -3025,6 +3025,54 @@
           ]
         },
         {
+          "kind": "Var",
+          "name": "imageSize",
+          "printedName": "imageSize",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule11ContentViewV9imageSizeSivp",
+          "mangledName": "$s9AppModule11ContentViewV9imageSizeSivp",
+          "moduleName": "AppModule",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 13,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule11ContentViewV9imageSizeSivg",
+              "mangledName": "$s9AppModule11ContentViewV9imageSizeSivg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
           "kind": "Function",
           "name": "updateTouchedCell",
           "printedName": "updateTouchedCell(location:)",
@@ -4540,23 +4588,71 @@
         },
         {
           "kind": "Var",
+          "name": "imageSize",
+          "printedName": "imageSize",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9AppModule13ImageEditViewV9imageSizeSivp",
+          "mangledName": "$s9AppModule13ImageEditViewV9imageSizeSivp",
+          "moduleName": "AppModule",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9AppModule13ImageEditViewV9imageSizeSivg",
+              "mangledName": "$s9AppModule13ImageEditViewV9imageSizeSivg",
+              "moduleName": "AppModule",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [
             {
               "kind": "TypeNominal",
               "name": "VStack",
-              "printedName": "SwiftUI.VStack<SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI.HStack<SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>>>",
+              "printedName": "SwiftUI.VStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>>>",
               "children": [
                 {
                   "kind": "TypeNominal",
                   "name": "ForEach",
-                  "printedName": "SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI.HStack<SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>>",
+                  "printedName": "SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>>",
                   "children": [
                     {
                       "kind": "TypeNominal",
-                      "name": "ClosedRange",
-                      "printedName": "Swift.ClosedRange<Swift.Int>",
+                      "name": "Range",
+                      "printedName": "Swift.Range<Swift.Int>",
                       "children": [
                         {
                           "kind": "TypeNominal",
@@ -4565,7 +4661,7 @@
                           "usr": "s:Si"
                         }
                       ],
-                      "usr": "s:SN"
+                      "usr": "s:Sn"
                     },
                     {
                       "kind": "TypeNominal",
@@ -4576,17 +4672,17 @@
                     {
                       "kind": "TypeNominal",
                       "name": "HStack",
-                      "printedName": "SwiftUI.HStack<SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>",
+                      "printedName": "SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>",
                       "children": [
                         {
                           "kind": "TypeNominal",
                           "name": "ForEach",
-                          "printedName": "SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>",
+                          "printedName": "SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>",
                           "children": [
                             {
                               "kind": "TypeNominal",
-                              "name": "ClosedRange",
-                              "printedName": "Swift.ClosedRange<Swift.Int>",
+                              "name": "Range",
+                              "printedName": "Swift.Range<Swift.Int>",
                               "children": [
                                 {
                                   "kind": "TypeNominal",
@@ -4595,7 +4691,7 @@
                                   "usr": "s:Si"
                                 }
                               ],
-                              "usr": "s:SN"
+                              "usr": "s:Sn"
                             },
                             {
                               "kind": "TypeNominal",
@@ -4678,17 +4774,17 @@
                 {
                   "kind": "TypeNominal",
                   "name": "VStack",
-                  "printedName": "SwiftUI.VStack<SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI.HStack<SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>>>",
+                  "printedName": "SwiftUI.VStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>>>",
                   "children": [
                     {
                       "kind": "TypeNominal",
                       "name": "ForEach",
-                      "printedName": "SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI.HStack<SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>>",
+                      "printedName": "SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>>",
                       "children": [
                         {
                           "kind": "TypeNominal",
-                          "name": "ClosedRange",
-                          "printedName": "Swift.ClosedRange<Swift.Int>",
+                          "name": "Range",
+                          "printedName": "Swift.Range<Swift.Int>",
                           "children": [
                             {
                               "kind": "TypeNominal",
@@ -4697,7 +4793,7 @@
                               "usr": "s:Si"
                             }
                           ],
-                          "usr": "s:SN"
+                          "usr": "s:Sn"
                         },
                         {
                           "kind": "TypeNominal",
@@ -4708,17 +4804,17 @@
                         {
                           "kind": "TypeNominal",
                           "name": "HStack",
-                          "printedName": "SwiftUI.HStack<SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>",
+                          "printedName": "SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>",
                           "children": [
                             {
                               "kind": "TypeNominal",
                               "name": "ForEach",
-                              "printedName": "SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>",
+                              "printedName": "SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>",
                               "children": [
                                 {
                                   "kind": "TypeNominal",
-                                  "name": "ClosedRange",
-                                  "printedName": "Swift.ClosedRange<Swift.Int>",
+                                  "name": "Range",
+                                  "printedName": "Swift.Range<Swift.Int>",
                                   "children": [
                                     {
                                       "kind": "TypeNominal",
@@ -4727,7 +4823,7 @@
                                       "usr": "s:Si"
                                     }
                                   ],
-                                  "usr": "s:SN"
+                                  "usr": "s:Sn"
                                 },
                                 {
                                   "kind": "TypeNominal",
@@ -4903,17 +4999,17 @@
                 {
                   "kind": "TypeNominal",
                   "name": "VStack",
-                  "printedName": "SwiftUI.VStack<SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI.HStack<SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>>>",
+                  "printedName": "SwiftUI.VStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>>>",
                   "children": [
                     {
                       "kind": "TypeNominal",
                       "name": "ForEach",
-                      "printedName": "SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI.HStack<SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>>",
+                      "printedName": "SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>>",
                       "children": [
                         {
                           "kind": "TypeNominal",
-                          "name": "ClosedRange",
-                          "printedName": "Swift.ClosedRange<Swift.Int>",
+                          "name": "Range",
+                          "printedName": "Swift.Range<Swift.Int>",
                           "children": [
                             {
                               "kind": "TypeNominal",
@@ -4922,7 +5018,7 @@
                               "usr": "s:Si"
                             }
                           ],
-                          "usr": "s:SN"
+                          "usr": "s:Sn"
                         },
                         {
                           "kind": "TypeNominal",
@@ -4933,17 +5029,17 @@
                         {
                           "kind": "TypeNominal",
                           "name": "HStack",
-                          "printedName": "SwiftUI.HStack<SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>",
+                          "printedName": "SwiftUI.HStack<SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>>",
                           "children": [
                             {
                               "kind": "TypeNominal",
                               "name": "ForEach",
-                              "printedName": "SwiftUI.ForEach<Swift.ClosedRange<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>",
+                              "printedName": "SwiftUI.ForEach<Swift.Range<Swift.Int>, Swift.Int, SwiftUI._ConditionalContent<some SwiftUI.View, some SwiftUI.View>>",
                               "children": [
                                 {
                                   "kind": "TypeNominal",
-                                  "name": "ClosedRange",
-                                  "printedName": "Swift.ClosedRange<Swift.Int>",
+                                  "name": "Range",
+                                  "printedName": "Swift.Range<Swift.Int>",
                                   "children": [
                                     {
                                       "kind": "TypeNominal",
@@ -4952,7 +5048,7 @@
                                       "usr": "s:Si"
                                     }
                                   ],
-                                  "usr": "s:SN"
+                                  "usr": "s:Sn"
                                 },
                                 {
                                   "kind": "TypeNominal",

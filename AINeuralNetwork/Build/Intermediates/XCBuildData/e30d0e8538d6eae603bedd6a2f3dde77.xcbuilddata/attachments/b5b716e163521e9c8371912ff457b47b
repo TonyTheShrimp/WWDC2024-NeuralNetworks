@@ -1,0 +1,118 @@
+{
+  "" : {
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/AI Neural Network-master.dia",
+    "emit-module-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/AI Neural Network-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/AI Neural Network-master-emit-module.dia",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/AI Neural Network-master.swiftdeps"
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/ContentView.swift" : {
+    "const-values" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/LandscapView.swift" : {
+    "const-values" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/LandscapView.swiftconstvalues",
+    "dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/LandscapView.d",
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/LandscapView.dia",
+    "index-unit-output-path" : "/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/LandscapView.o",
+    "llvm-bc" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/LandscapView.bc",
+    "object" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/LandscapView.o",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/LandscapView.swiftdeps",
+    "swiftmodule" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/LandscapView~partial.swiftmodule"
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/MyApp.swift" : {
+    "const-values" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/MyApp.swiftconstvalues",
+    "dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/MyApp.d",
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/MyApp.dia",
+    "index-unit-output-path" : "/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/MyApp.o",
+    "llvm-bc" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/MyApp.bc",
+    "object" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/MyApp.o",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/MyApp.swiftdeps",
+    "swiftmodule" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/MyApp~partial.swiftmodule"
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/NeuralNetworkAnimationView.swift" : {
+    "const-values" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkAnimationView.swiftconstvalues",
+    "dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkAnimationView.d",
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkAnimationView.dia",
+    "index-unit-output-path" : "/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkAnimationView.o",
+    "llvm-bc" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkAnimationView.bc",
+    "object" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkAnimationView.o",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkAnimationView.swiftdeps",
+    "swiftmodule" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkAnimationView~partial.swiftmodule"
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/NeuralNetworkTextView.swift" : {
+    "const-values" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkTextView.swiftconstvalues",
+    "dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkTextView.d",
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkTextView.dia",
+    "index-unit-output-path" : "/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkTextView.o",
+    "llvm-bc" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkTextView.bc",
+    "object" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkTextView.o",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkTextView.swiftdeps",
+    "swiftmodule" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/NeuralNetworkTextView~partial.swiftmodule"
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/PortraitView.swift" : {
+    "const-values" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/PortraitView.swiftconstvalues",
+    "dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/PortraitView.d",
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/PortraitView.dia",
+    "index-unit-output-path" : "/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/PortraitView.o",
+    "llvm-bc" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/PortraitView.bc",
+    "object" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/PortraitView.o",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/PortraitView.swiftdeps",
+    "swiftmodule" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/PortraitView~partial.swiftmodule"
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/TopBarView.swift" : {
+    "const-values" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TopBarView.swiftconstvalues",
+    "dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TopBarView.d",
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TopBarView.dia",
+    "index-unit-output-path" : "/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TopBarView.o",
+    "llvm-bc" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TopBarView.bc",
+    "object" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TopBarView.o",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TopBarView.swiftdeps",
+    "swiftmodule" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TopBarView~partial.swiftmodule"
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/TrainNetworkAnimationView.swift" : {
+    "const-values" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkAnimationView.swiftconstvalues",
+    "dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkAnimationView.d",
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkAnimationView.dia",
+    "index-unit-output-path" : "/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkAnimationView.o",
+    "llvm-bc" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkAnimationView.bc",
+    "object" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkAnimationView.o",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkAnimationView.swiftdeps",
+    "swiftmodule" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkAnimationView~partial.swiftmodule"
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/TrainNetworkTextView.swift" : {
+    "const-values" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkTextView.swiftconstvalues",
+    "dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkTextView.d",
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkTextView.dia",
+    "index-unit-output-path" : "/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkTextView.o",
+    "llvm-bc" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkTextView.bc",
+    "object" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkTextView.o",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkTextView.swiftdeps",
+    "swiftmodule" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/TrainNetworkTextView~partial.swiftmodule"
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "const-values" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/resource_bundle_accessor.swiftconstvalues",
+    "dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/resource_bundle_accessor.d",
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/resource_bundle_accessor.dia",
+    "index-unit-output-path" : "/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/resource_bundle_accessor.swiftdeps",
+    "swiftmodule" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/resource_bundle_accessor~partial.swiftmodule"
+  }
+}

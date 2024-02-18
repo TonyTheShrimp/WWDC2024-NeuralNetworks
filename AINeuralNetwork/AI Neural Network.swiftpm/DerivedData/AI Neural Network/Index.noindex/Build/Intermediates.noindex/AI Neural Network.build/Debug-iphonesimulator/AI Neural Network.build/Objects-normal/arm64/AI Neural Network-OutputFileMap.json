@@ -1,0 +1,42 @@
+{
+  "" : {
+    "dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/DerivedData/AI Neural Network/Index.noindex/Build/Intermediates.noindex/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/AI Neural Network-master.d",
+    "diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/DerivedData/AI Neural Network/Index.noindex/Build/Intermediates.noindex/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/AI Neural Network-master.dia",
+    "emit-module-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/DerivedData/AI Neural Network/Index.noindex/Build/Intermediates.noindex/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/AI Neural Network-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/DerivedData/AI Neural Network/Index.noindex/Build/Intermediates.noindex/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/AI Neural Network-master-emit-module.dia",
+    "swift-dependencies" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/DerivedData/AI Neural Network/Index.noindex/Build/Intermediates.noindex/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/Objects-normal/arm64/AI Neural Network-master.swiftdeps"
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/ContentView.swift" : {
+
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/DerivedData/AI Neural Network/Index.noindex/Build/Intermediates.noindex/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/DerivedData/AI Neural Network/Index.noindex/Build/Intermediates.noindex/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/DerivedSources/resource_bundle_accessor.swift" : {
+
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/LandscapView.swift" : {
+
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/MyApp.swift" : {
+
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/NeuralNetworkAnimationView.swift" : {
+
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/NeuralNetworkTextView.swift" : {
+
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/PortraitView.swift" : {
+
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/TopBarView.swift" : {
+
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/TrainNetworkAnimationView.swift" : {
+
+  },
+  "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/TrainNetworkTextView.swift" : {
+
+  }
+}

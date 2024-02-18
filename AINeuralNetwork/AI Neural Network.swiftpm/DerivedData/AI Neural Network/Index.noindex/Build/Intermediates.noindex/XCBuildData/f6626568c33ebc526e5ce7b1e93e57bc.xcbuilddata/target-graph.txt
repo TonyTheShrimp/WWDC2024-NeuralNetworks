@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+Target 'AI Neural Network' in project 'AI Neural Network' (no dependencies)
+Target 'AppModule' in project 'AI Neural Network' (no dependencies)

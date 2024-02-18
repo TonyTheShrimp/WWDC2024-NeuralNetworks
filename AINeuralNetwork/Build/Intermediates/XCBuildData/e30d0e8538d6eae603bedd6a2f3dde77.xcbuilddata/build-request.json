@@ -1,0 +1,63 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "PACKAGE-PRODUCT:AI Neural Network"
+    }
+  ],
+  "containerPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates",
+      "buildProductsPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build",
+      "derivedDataPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/DerivedData/AI Neural Network/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/DerivedData/AI Neural Network/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/Build/Intermediates/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPad14,3",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.0.1",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPad14,3",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "05B75187-FDC5-491F-971F-624E2E3B6FAA",
+          "TARGET_DEVICE_MODEL" : "iPad14,3",
+          "TARGET_DEVICE_OS_VERSION" : "17.0.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

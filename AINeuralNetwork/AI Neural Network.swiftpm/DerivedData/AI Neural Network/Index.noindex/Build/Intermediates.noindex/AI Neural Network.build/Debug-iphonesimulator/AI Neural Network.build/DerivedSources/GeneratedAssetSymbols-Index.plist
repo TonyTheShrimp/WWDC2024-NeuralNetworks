@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/DerivedData/AI Neural Network/Index.noindex/Build/Intermediates.noindex/AI Neural Network.build/Debug-iphonesimulator/AI Neural Network.build/DerivedSources/GeneratedAssetCatalog.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNamePresetAccentColor</string>
+			<key>relativePath</key>
+			<string>./__PresetAccentColor.colorset</string>
+			<key>swiftSymbol</key>
+			<string>presetAccent</string>
+		</dict>
+	</array>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNeuralNetwork</string>
+			<key>relativePath</key>
+			<string>./NeuralNetwork.imageset</string>
+			<key>swiftSymbol</key>
+			<string>neuralNetwork</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNeuron</string>
+			<key>relativePath</key>
+			<string>./Neuron.imageset</string>
+			<key>swiftSymbol</key>
+			<string>neuron</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameFuncIcon</string>
+			<key>relativePath</key>
+			<string>./funcIcon.imageset</string>
+			<key>swiftSymbol</key>
+			<string>funcIcon</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePlusIcon</string>
+			<key>relativePath</key>
+			<string>./plusIcon.imageset</string>
+			<key>swiftSymbol</key>
+			<string>plusIcon</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

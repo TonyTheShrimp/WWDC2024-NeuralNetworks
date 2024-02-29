@@ -34,6 +34,42 @@ extension ColorResource {
 @available(iOS 11.0, macOS 10.7, tvOS 11.0, *)
 extension ImageResource {
 
+    /// The "1+e" asset catalog image resource.
+    static let _1E = ImageResource(name: "1+e", bundle: resourceBundle)
+
+    /// The "1+e2" asset catalog image resource.
+    static let _1E2 = ImageResource(name: "1+e2", bundle: resourceBundle)
+
+    /// The "AnswerRight" asset catalog image resource.
+    static let answerRight = ImageResource(name: "AnswerRight", bundle: resourceBundle)
+
+    /// The "AnswerWrong" asset catalog image resource.
+    static let answerWrong = ImageResource(name: "AnswerWrong", bundle: resourceBundle)
+
+    /// The "Icon" asset catalog image resource.
+    static let icon = ImageResource(name: "Icon", bundle: resourceBundle)
+
+    /// The "MultiIcon" asset catalog image resource.
+    static let multiIcon = ImageResource(name: "MultiIcon", bundle: resourceBundle)
+
+    /// The "Network00" asset catalog image resource.
+    static let network00 = ImageResource(name: "Network00", bundle: resourceBundle)
+
+    /// The "Network01" asset catalog image resource.
+    static let network01 = ImageResource(name: "Network01", bundle: resourceBundle)
+
+    /// The "Network02" asset catalog image resource.
+    static let network02 = ImageResource(name: "Network02", bundle: resourceBundle)
+
+    /// The "Network03" asset catalog image resource.
+    static let network03 = ImageResource(name: "Network03", bundle: resourceBundle)
+
+    /// The "Network04" asset catalog image resource.
+    static let network04 = ImageResource(name: "Network04", bundle: resourceBundle)
+
+    /// The "Network05" asset catalog image resource.
+    static let network05 = ImageResource(name: "Network05", bundle: resourceBundle)
+
     /// The "NeuralNetwork" asset catalog image resource.
     static let neuralNetwork = ImageResource(name: "NeuralNetwork", bundle: resourceBundle)
 

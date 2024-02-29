@@ -8,10 +8,10 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>__PlaceholderAppIcon60x60</string>
+				<string>AppIcon60x60</string>
 			</array>
 			<key>CFBundleIconName</key>
-			<string>__PlaceholderAppIcon</string>
+			<string>AppIcon</string>
 		</dict>
 	</dict>
 	<key>CFBundleIcons~ipad</key>
@@ -20,11 +20,11 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>__PlaceholderAppIcon60x60</string>
-				<string>__PlaceholderAppIcon76x76</string>
+				<string>AppIcon60x60</string>
+				<string>AppIcon76x76</string>
 			</array>
 			<key>CFBundleIconName</key>
-			<string>__PlaceholderAppIcon</string>
+			<string>AppIcon</string>
 		</dict>
 	</dict>
 	<key>NSAccentColorName</key>

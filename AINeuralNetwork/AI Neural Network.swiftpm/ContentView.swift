@@ -1,108 +1,143 @@
 import SwiftUI
 
+import AVFoundation
+
+var audioPlayer: AVAudioPlayer?
+
 let mainBGColor = Color(red: 0.96, green: 0.96, blue: 0.9)
 let mainTextColor = Color(red: 0.15, green: 0.15, blue: 0.15)
 let contentBGColor = Color(red:0.24, green:0.255, blue: 0.38 )
 let contentTextColor = Color(red:0.96, green:0.96, blue: 0.96 )
+let contentBGColor2 = Color(red:0.76, green:0.1, blue: 0.15 )
 
 let neuronBGColorDark = Color(red:0.24, green:0.56, blue: 0.2 )
-let neuronBGColorLight = Color(red:0.96, green:0.96, blue: 0.96 )
-let biasBGColorDark = Color(red:0.24, green:0.56, blue: 0.2 )
+let neuronBGColorLight = Color(red:0.40, green:0.80, blue: 0.32 )
+let biasBGColorDark = Color(red:0.9, green:0.46, blue: 0.01 )
 let biasBGColorLight = Color(red:0.96, green:0.96, blue: 0.96 )
 let neuronTextColor = Color(red:0.96, green:0.96, blue: 0.96 )
 let neuronBorderColor = Color(red: 0.15, green: 0.15, blue: 0.15)
 
+let dataBGColorDark = Color(red: 0.96, green: 0.96, blue: 0.9)
+let dataBGColorLight = Color(red: 0.48, green: 0.96, blue: 0.9)
+
+let forwardStreamColor = Color.cyan
+let backStreamColor = Color.red
+
+var network = NeuralNetwork()
+
+var soundPlayer: AVAudioPlayer?
+
+func playSound(filename: String) {
+    if let bundle = Bundle.main.path(forResource: filename, ofType: "wav") {
+        let backgroundMusicUrl = URL(fileURLWithPath: bundle)
+        
+        do {
+            soundPlayer = try AVAudioPlayer(contentsOf: backgroundMusicUrl)
+            soundPlayer?.numberOfLoops = 0
+            soundPlayer?.prepareToPlay()
+            soundPlayer?.play()
+        } catch {
+            print(error)
+        }
+    }
+}
+
+
 struct ContentView: View {
+    //@ObservedObject private var keyboard = KeyboardResponder()
+    
     @State var pageIndex = 0
     @State var stepIndex = 0
 
-    @State private var isAnimating = false
-    @State private var textOpacity = 1.0
     
     @State var isFromFrontPage = false
     
+    @State var imageIndex = 0
+    
+    @State var textOpacity = 1.0
+    
     var body: some View {
-        if pageIndex==0 {
-            // Front page
-            GeometryReader { geometry in
-                VStack { //  screen
-                    VStack{     // main area
-                        Spacer()
-                         Text("AI Neural Network")
-                            .frame(width: geometry.size.width, height: geometry.size.height/10)
-                            .font(.system(size: min(geometry.size.width / 10, 72)))
-                            .foregroundColor(mainTextColor)
-                            .offset(x: isAnimating ? 0 : 0, y: isAnimating ? geometry.size.height * -0.38 : 0)
-                        Spacer()
-                    }   // main area
-                    .frame(width: geometry.size.width, height: geometry.size.height*0.618)
-                    
-                    VStack{ // Content area
-                        Text("A neural network is a type of artificial intelligence (AI) model that is inspired by the structure and function of biological neural networks, such as the human brain. It's a fundamental component of many modern machine learning and deep learning algorithms.")
-                            .font(.system(size: min(geometry.size.width / 10, 32)))
-                            .foregroundColor(contentTextColor)
-                            .opacity(isAnimating ? 0.0 : 1.0)
-                            .padding(.vertical, geometry.size.height/16) // 在垂直方向（上下）添加内边距
-                            .padding(.horizontal, geometry.size.width/12) // 在水平方向（左右）添加内边距
-                        Spacer()
+        ZStack{
+            if pageIndex==0 {
+                // Front page
+                AnyView(FrontView(pageIndex:$pageIndex))
+            }
+            else if(pageIndex == 1) {
+                AnyView(InfoView(pageIndex:$pageIndex))
+            }
+            else if(pageIndex == 2) {
+                
+                let images = ["Network00","Network01","Network02","Network03","Network04","Network05"]
+                let countdownTimer = Timer(timeInterval: 0.6, repeats: true) { timer in
+                    imageIndex += 1
+                    if imageIndex == images.count {
+                        imageIndex = 0
+                    }
+                }
+                ZStack{
+                    GeometryReader { geometry in
+                        Button(action: {
+                            print("屏幕任何地方被点击")
+                            playSound(filename:"Button2")
+                            countdownTimer.invalidate()
+                            pageIndex = 3
+                        }) {
+                            // 使用透明色填充整个屏幕，使其可点击
+                            Color.clear
+                                .edgesIgnoringSafeArea(.all) // 忽略安全区域，填充整个屏幕
+                        }
+                        Text("Let's train a simplified neural network!")
+                            .foregroundStyle(mainTextColor)
+                            .font(.system(size: 56))
+                            .position(x: geometry.size.width/2, y: geometry.size.height*0.4)
+                        Image( images[imageIndex]) // Placeholder image, replace with your own
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: geometry.size.width*0.3, height: geometry.size.height*0.3)
+                            .position(x: geometry.size.width/2, y: geometry.size.height*0.6)
                         Text("Tap to continue...")
-                            //.frame(width: geometry.size.width*5/6, height: geometry.size.height/4)
-                            .font(.system(size: min(geometry.size.width / 16, 28)))
-                            .foregroundColor(contentTextColor)
-                            .offset(x: isAnimating ? 0 : 0, y: isAnimating ? geometry.size.height / 3 : 0)
+                            .frame(width: geometry.size.width*0.8, height: geometry.size.height*0.08)
                             .opacity(textOpacity)
-                            .italic()
+                            .position(x: geometry.size.width/2, y:geometry.size.height*0.98 )
+                            .font(.system(size: min(geometry.size.width / 14, 24)))
+                            .foregroundColor(.black)
                             .onAppear {
-                                // 在文本出现时开始动画
+                                // This is a loop of animation
                                 withAnimation(Animation.linear(duration: 2).repeatForever(autoreverses: true)) {
-                                    // 无限循环切换颜色
-                                    textOpacity = 0.2
+                                   textOpacity = 0.2
                                 }
                             }
-                    }   // Content area
-                    .background(contentBGColor)
-                    .frame(width: geometry.size.width+20, height: geometry.size.height*0.383)
-                    .opacity(isAnimating ? 0.0 : 1.0)
-                    
-                }   // Whole screen
-                .edgesIgnoringSafeArea([.bottom, .leading, .trailing])
-                .background(mainBGColor)
-                .onTapGesture {
-                    // Action to perform on tap
-                    withAnimation(.easeInOut(duration: 0.4)) {
-                        isAnimating.toggle()
+                            .italic()
                     }
-                    // 动画结束后的操作
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                        // 动画完成后要执行的代码
-                        print("动画完成!")
-                        pageIndex = 1
-                        isFromFrontPage = true
-                    }
-                }   //  GeometryReader of screen
-            }
-            .statusBar(hidden: true) // This hides the status bar
-        }
-        else  {
-            GeometryReader { screenGeometry in
-                if screenGeometry.size.height > screenGeometry.size.width {
-                    AnyView(PortraitView(pageIndex:$pageIndex,stepIndex:$stepIndex,isFromFrontPage:$isFromFrontPage))
-                        .background(mainBGColor)
-                } else {
-                    // 竖屏
-                    AnyView(LandscapView())
-                        .background(mainBGColor)
                 }
+                .background(mainBGColor)
+                .statusBar(hidden: true)
+                .edgesIgnoringSafeArea(.bottom)
+                .onAppear(){
+                    RunLoop.current.add(countdownTimer, forMode: .default)
+                    countdownTimer.fire()
+                }
+                
             }
-            .statusBar(hidden: true) // This hides the status bar
+            else if(pageIndex==3){
+                AnyView(TrainView())
+            }
+        }
+        .onAppear(){
+            if let bundle = Bundle.main.path(forResource: "Music", ofType: "mp3") {
+                    let backgroundMusicUrl = URL(fileURLWithPath: bundle)
+                    
+                    do {
+                        audioPlayer = try AVAudioPlayer(contentsOf: backgroundMusicUrl)
+                        audioPlayer?.numberOfLoops = -1 // Infinite loop
+                        audioPlayer?.prepareToPlay()
+                        audioPlayer?.play()
+                    } catch {
+                        print(error)
+                    }
+                }
         }
         
     }
+       
 }
-/*
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-            .previewInterfaceOrientation(.landscapeLeft)
-    }
-}*/

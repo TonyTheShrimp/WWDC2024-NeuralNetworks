@@ -4,48 +4,81 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		BJs3QULikDCoi5eP8FoLb0xOkhg=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		3Rpx+UJX1U/e+JxRcnK/cZ0r08c=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		aEhrurBKt1ngkjFHqGxF8h3WUy0=
+		+IMMtqf+8StNEHffAkZ+tY+A5R8=
+		</data>
+		<key>Button2.wav</key>
+		<data>
+		3pSQE2H0oxpd2trehgg6TFm0yLM=
+		</data>
+		<key>Coin.wav</key>
+		<data>
+		BoHmLt6TqNuttBHcy3PvzFxSUzg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		d6LMBzWyMtwXS+Y1jdFuZqJrKAA=
+		QbLTlnAq4EV9fShtf7O1tAr9vZI=
+		</data>
+		<key>Music.mp3</key>
+		<data>
+		IBXusCJW5SbGgw4d100C1zN5WCA=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>__PlaceholderAppIcon60x60@2x.png</key>
-		<data>
-		pNF9N0Muj0bPN0d41jyS1nE8cE4=
-		</data>
-		<key>__PlaceholderAppIcon76x76@2x~ipad.png</key>
-		<data>
-		5I1nHeYOFQx+J3QrQn4lelD03/8=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QyMZc/Q6pN/HItZaZLuq7RwtSc+sjt6telOhC8Tuj0Q=
+			</data>
+		</dict>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wQvOksPEE29DthhYFlr+rr6xXg9KY4wzGHInw7gLIRg=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ct2PvgXXK8cGlTQPtY3FHbcvTQY6C5Mt0BZm9+VQSh0=
+			Xem9vMNGNqWNr/smcvDZxi/0M4eP7N6Lcgan6IB8d4w=
 			</data>
 		</dict>
-		<key>__PlaceholderAppIcon60x60@2x.png</key>
+		<key>Button2.wav</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lxHbqa05M5jGwPV3AHC19MxZAt3Z40nKou617GvxnzM=
+			YRI0M3Ht/oJ+RksECXBcy5e3Tv7ARzAHE5mTZwavN2k=
 			</data>
 		</dict>
-		<key>__PlaceholderAppIcon76x76@2x~ipad.png</key>
+		<key>Coin.wav</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mQAJWOFh6vDdCBs1UoSoiH9O3TGPRptXNQMW4Erftq4=
+			ryr2snMMu5OIsq9+thrTj5zWYQgJuyZaOYtQF9fHgac=
+			</data>
+		</dict>
+		<key>Music.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wtV5+RVLl73IVbLmQY6+2RKmzxslGvSnGQ5xPNuSoYU=
 			</data>
 		</dict>
 	</dict>

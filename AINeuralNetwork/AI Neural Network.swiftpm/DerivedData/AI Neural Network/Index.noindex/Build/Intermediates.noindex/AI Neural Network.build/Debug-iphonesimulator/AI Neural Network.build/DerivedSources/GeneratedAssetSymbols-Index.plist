@@ -21,6 +21,126 @@
 			<key>catalogPath</key>
 			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
 			<key>objcSymbol</key>
+			<string>ACImageName1E</string>
+			<key>relativePath</key>
+			<string>./1+e.imageset</string>
+			<key>swiftSymbol</key>
+			<string>_1E</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageName1E2</string>
+			<key>relativePath</key>
+			<string>./1+e2.imageset</string>
+			<key>swiftSymbol</key>
+			<string>_1E2</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAnswerRight</string>
+			<key>relativePath</key>
+			<string>./AnswerRight.imageset</string>
+			<key>swiftSymbol</key>
+			<string>answerRight</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAnswerWrong</string>
+			<key>relativePath</key>
+			<string>./AnswerWrong.imageset</string>
+			<key>swiftSymbol</key>
+			<string>answerWrong</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameIcon</string>
+			<key>relativePath</key>
+			<string>./Icon.imageset</string>
+			<key>swiftSymbol</key>
+			<string>icon</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameMultiIcon</string>
+			<key>relativePath</key>
+			<string>./MultiIcon.imageset</string>
+			<key>swiftSymbol</key>
+			<string>multiIcon</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNetwork00</string>
+			<key>relativePath</key>
+			<string>./Network00.imageset</string>
+			<key>swiftSymbol</key>
+			<string>network00</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNetwork01</string>
+			<key>relativePath</key>
+			<string>./Network01.imageset</string>
+			<key>swiftSymbol</key>
+			<string>network01</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNetwork02</string>
+			<key>relativePath</key>
+			<string>./Network02.imageset</string>
+			<key>swiftSymbol</key>
+			<string>network02</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNetwork03</string>
+			<key>relativePath</key>
+			<string>./Network03.imageset</string>
+			<key>swiftSymbol</key>
+			<string>network03</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNetwork04</string>
+			<key>relativePath</key>
+			<string>./Network04.imageset</string>
+			<key>swiftSymbol</key>
+			<string>network04</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNetwork05</string>
+			<key>relativePath</key>
+			<string>./Network05.imageset</string>
+			<key>swiftSymbol</key>
+			<string>network05</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/xiaoyuma/Documents/My_Works/WWDC2004/NeuralNetworks/AINeuralNetwork/AI Neural Network.swiftpm/Assets.xcassets</string>
+			<key>objcSymbol</key>
 			<string>ACImageNameNeuralNetwork</string>
 			<key>relativePath</key>
 			<string>./NeuralNetwork.imageset</string>

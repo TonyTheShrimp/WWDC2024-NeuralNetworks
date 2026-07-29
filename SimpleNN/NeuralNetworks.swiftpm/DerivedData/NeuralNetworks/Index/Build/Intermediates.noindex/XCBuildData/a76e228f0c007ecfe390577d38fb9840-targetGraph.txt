@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-AppModule in NeuralNetworks, no dependencies
-NeuralNetworks in NeuralNetworks, no dependencies

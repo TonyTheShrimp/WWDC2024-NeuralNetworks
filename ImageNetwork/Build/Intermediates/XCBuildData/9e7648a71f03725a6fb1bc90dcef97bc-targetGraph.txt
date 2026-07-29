@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-ImageNetwork in ImageNetwork, no dependencies
-AppModule in ImageNetwork, no dependencies

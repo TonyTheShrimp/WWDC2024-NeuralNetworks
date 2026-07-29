@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-AppModule in ImageNetwork, no dependencies

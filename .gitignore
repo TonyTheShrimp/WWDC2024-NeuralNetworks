@@ -1,0 +1,13 @@
+﻿# Xcode build artifacts - never belong in a repo
+DerivedData/
+Build/
+*.xcactivitylog
+*.pcm
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+*.swiftdeps
+.DS_Store
+
+# Per-user Xcode state
+**/xcuserdata/
